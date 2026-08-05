@@ -1,0 +1,31 @@
+Generate an English Knowledge Point.
+
+Topic:
+
+{{TOPIC}}
+
+Focus:
+
+{{FOCUS}}
+
+Target Level:
+
+{{LEVEL}}
+
+Target Age:
+
+{{AGE}}
+
+Schemas:
+
+schema-base.json
+
+schema-learning-asset.json
+
+Generate:
+
+1 Base Knowledge
+
+Multiple Learning Assets
+
+Return JSON only.

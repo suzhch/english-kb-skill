@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-kb/schema-personal-review.json",
+
+  "title": "Personal Review Record",
+
+  "type": "object",
+
+  "required": [
+    "id",
+    "knowledgePointId",
+    "score",
+    "reviewedAt"
+  ],
+
+  "properties": {
+
+    "id": {
+      "type": "string",
+      "pattern": "^review_"
+    },
+
+    "knowledgePointId": {
+      "type": "string"
+    },
+
+    "score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+
+    "reviewMethod": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+
+    "durationSeconds": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+
+    "comment": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+
+    "reviewedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

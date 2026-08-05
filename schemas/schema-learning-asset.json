@@ -1,0 +1,432 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-kb/schema-learning-asset.json",
+  "title": "English Learning Asset",
+  "type": "object",
+
+  "required": [
+    "id",
+    "knowledgePointId",
+    "strategy",
+    "createdAt"
+  ],
+
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^asset_"
+    },
+
+    "knowledgePointId": {
+      "type": "string",
+      "pattern": "^eng_"
+    },
+
+    "strategy": {
+      "type": "string",
+      "enum": [
+        "CLASSIFICATION",
+        "COMPARISON",
+        "ASSOCIATION",
+        "EXAMPLE",
+        "COUNTER_EXAMPLE",
+        "PRODUCTION",
+        "EXPLANATION",
+        "SCENARIO",
+        "DIALOGUE",
+        "MNEMONIC",
+        "CONFUSION",
+        "EXTENSION"
+      ]
+    },
+
+    "title": {
+      "type": "string"
+    },
+
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+
+    "updatedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  },
+
+  "oneOf": [
+    {
+      "$ref": "#/$defs/Classification"
+    },
+    {
+      "$ref": "#/$defs/Comparison"
+    },
+    {
+      "$ref": "#/$defs/Association"
+    },
+    {
+      "$ref": "#/$defs/Example"
+    },
+    {
+      "$ref": "#/$defs/CounterExample"
+    },
+    {
+      "$ref": "#/$defs/Production"
+    },
+    {
+      "$ref": "#/$defs/Explanation"
+    },
+    {
+      "$ref": "#/$defs/Scenario"
+    },
+    {
+      "$ref": "#/$defs/Dialogue"
+    },
+    {
+      "$ref": "#/$defs/Mnemonic"
+    },
+    {
+      "$ref": "#/$defs/Confusion"
+    },
+    {
+      "$ref": "#/$defs/Extension"
+    }
+  ],
+
+  "$defs": {
+
+    "Classification": {
+      "properties": {
+        "strategy": {
+          "const": "CLASSIFICATION"
+        },
+        "classification": {
+          "type": "object",
+          "required": [
+            "parent",
+            "reason"
+          ],
+          "properties": {
+            "parent": {
+              "type": "string"
+            },
+            "reason": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [
+        "classification"
+      ]
+    },
+
+    "Comparison": {
+      "properties": {
+        "strategy": {
+          "const": "COMPARISON"
+        },
+        "comparison": {
+          "type": "object",
+          "required": [
+            "compareWith"
+          ],
+          "properties": {
+            "compareWith": {
+              "type": "string"
+            },
+            "similarities": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "differences": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "comparison"
+      ]
+    },
+
+    "Association": {
+      "properties": {
+        "strategy": {
+          "const": "ASSOCIATION"
+        },
+        "association": {
+          "type": "object",
+          "properties": {
+            "relatedTopics": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "relatedWords": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "note": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [
+        "association"
+      ]
+    },
+
+    "Example": {
+      "properties": {
+        "strategy": {
+          "const": "EXAMPLE"
+        },
+        "example": {
+          "type": "object",
+          "required": [
+            "english",
+            "translation"
+          ],
+          "properties": {
+            "english": {
+              "type": "string"
+            },
+            "translation": {
+              "type": "string"
+            },
+            "note": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [
+        "example"
+      ]
+    },
+
+    "CounterExample": {
+      "properties": {
+        "strategy": {
+          "const": "COUNTER_EXAMPLE"
+        },
+        "counterExample": {
+          "type": "object",
+          "required": [
+            "wrong",
+            "reason"
+          ],
+          "properties": {
+            "wrong": {
+              "type": "string"
+            },
+            "reason": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [
+        "counterExample"
+      ]
+    },
+
+    "Production": {
+      "properties": {
+        "strategy": {
+          "const": "PRODUCTION"
+        },
+        "production": {
+          "type": "object",
+          "required": [
+            "mySentence"
+          ],
+          "properties": {
+            "mySentence": {
+              "type": "string"
+            },
+            "feedback": {
+              "type": "string"
+            },
+            "score": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        }
+      },
+      "required": [
+        "production"
+      ]
+    },
+
+    "Explanation": {
+      "properties": {
+        "strategy": {
+          "const": "EXPLANATION"
+        },
+        "explanation": {
+          "type": "object",
+          "required": [
+            "myUnderstanding"
+          ],
+          "properties": {
+            "myUnderstanding": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [
+        "explanation"
+      ]
+    },
+
+    "Scenario": {
+      "properties": {
+        "strategy": {
+          "const": "SCENARIO"
+        },
+        "scenario": {
+          "type": "object",
+          "required": [
+            "description"
+          ],
+          "properties": {
+            "description": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [
+        "scenario"
+      ]
+    },
+
+    "Dialogue": {
+      "properties": {
+        "strategy": {
+          "const": "DIALOGUE"
+        },
+        "dialogue": {
+          "type": "object",
+          "required": [
+            "conversation"
+          ],
+          "properties": {
+            "conversation": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "speaker",
+                  "text"
+                ],
+                "properties": {
+                  "speaker": {
+                    "type": "string"
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "dialogue"
+      ]
+    },
+
+    "Mnemonic": {
+      "properties": {
+        "strategy": {
+          "const": "MNEMONIC"
+        },
+        "mnemonic": {
+          "type": "object",
+          "required": [
+            "method"
+          ],
+          "properties": {
+            "method": {
+              "type": "string"
+            },
+            "content": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [
+        "mnemonic"
+      ]
+    },
+
+    "Confusion": {
+      "properties": {
+        "strategy": {
+          "const": "CONFUSION"
+        },
+        "confusion": {
+          "type": "object",
+          "required": [
+            "confusedWith"
+          ],
+          "properties": {
+            "confusedWith": {
+              "type": "string"
+            },
+            "reason": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [
+        "confusion"
+      ]
+    },
+
+    "Extension": {
+      "properties": {
+        "strategy": {
+          "const": "EXTENSION"
+        },
+        "extension": {
+          "type": "object",
+          "properties": {
+            "nextTopics": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "extension"
+      ]
+    }
+
+  }
+}

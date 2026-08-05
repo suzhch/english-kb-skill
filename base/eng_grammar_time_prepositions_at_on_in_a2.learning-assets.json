@@ -1,0 +1,188 @@
+[
+  {
+    "id": "asset_time_prepositions_at_on_in_classification_a2",
+    "knowledgePointId": "eng_grammar_time_prepositions_at_on_in_a2",
+    "strategy": "CLASSIFICATION",
+    "title": "Where This Grammar Belongs",
+    "classification": {
+      "parent": "Grammar > Preposition > Time Preposition",
+      "reason": "'At', 'on', and 'in' connect an action or event to a time. They answer the question 'When?'"
+    },
+    "createdAt": "2026-08-05T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_time_prepositions_at_on_in_comparison_a2",
+    "knowledgePointId": "eng_grammar_time_prepositions_at_on_in_a2",
+    "strategy": "COMPARISON",
+    "title": "At vs On vs In",
+    "comparison": {
+      "compareWith": "at, on, in",
+      "similarities": [
+        "All three can show time.",
+        "All three usually come before a time word or time phrase.",
+        "All three can answer the question 'When does it happen?'"
+      ],
+      "differences": [
+        "Use 'at' for a very exact time: at 8:30, at noon, at midnight.",
+        "Use 'on' for one specific day or date: on Monday, on July 1st, on my birthday.",
+        "Use 'in' for a bigger time period: in April, in 2026, in summer, in the morning.",
+        "Choose 'at' when the time feels like a point.",
+        "Choose 'on' when the time is a day or date on a calendar.",
+        "Choose 'in' when the time is inside a longer period."
+      ]
+    },
+    "createdAt": "2026-08-05T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_time_prepositions_at_on_in_association_a2",
+    "knowledgePointId": "eng_grammar_time_prepositions_at_on_in_a2",
+    "strategy": "ASSOCIATION",
+    "title": "Connected Time Words",
+    "association": {
+      "relatedTopics": [
+        "telling the time",
+        "calendar dates",
+        "school timetable",
+        "daily routines",
+        "future plans"
+      ],
+      "relatedWords": [
+        "Monday",
+        "weekend",
+        "morning",
+        "night",
+        "January",
+        "summer",
+        "2026",
+        "birthday",
+        "noon",
+        "midnight"
+      ],
+      "note": "These prepositions often appear with time words students already know: clock times, days, dates, months, seasons, and years."
+    },
+    "createdAt": "2026-08-05T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_time_prepositions_at_on_in_counter_example_at_a2",
+    "knowledgePointId": "eng_grammar_time_prepositions_at_on_in_a2",
+    "strategy": "COUNTER_EXAMPLE",
+    "title": "Wrong Use With Clock Time",
+    "counterExample": {
+      "wrong": "I go to school on 8:00.",
+      "reason": "This is wrong because '8:00' is an exact clock time. The correct sentence is: 'I go to school at 8:00.'"
+    },
+    "createdAt": "2026-08-05T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_time_prepositions_at_on_in_counter_example_on_a2",
+    "knowledgePointId": "eng_grammar_time_prepositions_at_on_in_a2",
+    "strategy": "COUNTER_EXAMPLE",
+    "title": "Wrong Use With Days",
+    "counterExample": {
+      "wrong": "We have English class in Monday.",
+      "reason": "This is wrong because 'Monday' is a day of the week. The correct sentence is: 'We have English class on Monday.'"
+    },
+    "createdAt": "2026-08-05T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_time_prepositions_at_on_in_counter_example_in_a2",
+    "knowledgePointId": "eng_grammar_time_prepositions_at_on_in_a2",
+    "strategy": "COUNTER_EXAMPLE",
+    "title": "Wrong Use With Months",
+    "counterExample": {
+      "wrong": "My vacation starts on August.",
+      "reason": "This is wrong because 'August' is a month, not a full date. The correct sentence is: 'My vacation starts in August.'"
+    },
+    "createdAt": "2026-08-05T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_time_prepositions_at_on_in_scenario_a2",
+    "knowledgePointId": "eng_grammar_time_prepositions_at_on_in_a2",
+    "strategy": "SCENARIO",
+    "title": "Real-Life Situations",
+    "scenario": {
+      "description": "Office: The meeting is at 10:00 on Friday in March. School: Math class starts at 9:15 on Tuesday. Travel: We arrive at night on July 3rd. Daily conversation: I play games in the evening. Academic writing: The study began in 2024. Business email: The call is on Monday at 2 p.m."
+    },
+    "createdAt": "2026-08-05T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_time_prepositions_at_on_in_mnemonic_a2",
+    "knowledgePointId": "eng_grammar_time_prepositions_at_on_in_a2",
+    "strategy": "MNEMONIC",
+    "title": "Small to Big Time Rule",
+    "mnemonic": {
+      "method": "Visual size pattern",
+      "content": "Think: AT = a small point on a clock, ON = one square on a calendar, IN = inside a big box of time."
+    },
+    "createdAt": "2026-08-05T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_time_prepositions_at_on_in_confusion_a2",
+    "knowledgePointId": "eng_grammar_time_prepositions_at_on_in_a2",
+    "strategy": "CONFUSION",
+    "title": "Common Confusion",
+    "confusion": {
+      "confusedWith": "in the morning vs on Monday morning",
+      "reason": "Use 'in the morning' for a general part of the day. Use 'on Monday morning' when the morning belongs to a specific day."
+    },
+    "createdAt": "2026-08-05T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_time_prepositions_at_on_in_dialogue_a2",
+    "knowledgePointId": "eng_grammar_time_prepositions_at_on_in_a2",
+    "strategy": "DIALOGUE",
+    "title": "Planning A Study Time",
+    "dialogue": {
+      "conversation": [
+        {
+          "speaker": "Mina",
+          "text": "When is the English test?"
+        },
+        {
+          "speaker": "Leo",
+          "text": "It is on Friday."
+        },
+        {
+          "speaker": "Mina",
+          "text": "What time does it start?"
+        },
+        {
+          "speaker": "Leo",
+          "text": "It starts at 9:00."
+        },
+        {
+          "speaker": "Mina",
+          "text": "Let us study in the evening."
+        }
+      ]
+    },
+    "createdAt": "2026-08-05T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_time_prepositions_at_on_in_extension_a2",
+    "knowledgePointId": "eng_grammar_time_prepositions_at_on_in_a2",
+    "strategy": "EXTENSION",
+    "title": "What To Learn Next",
+    "extension": {
+      "nextTopics": [
+        "from ... to ... for time ranges",
+        "before and after",
+        "during and for",
+        "time expressions without prepositions: today, yesterday, tomorrow, last week, next month",
+        "prepositions of place: at, on, in"
+      ]
+    },
+    "createdAt": "2026-08-05T00:00:00+09:00",
+    "updatedAt": null
+  }
+]

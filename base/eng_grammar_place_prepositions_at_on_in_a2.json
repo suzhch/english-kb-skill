@@ -1,0 +1,103 @@
+{
+  "id": "eng_grammar_place_prepositions_at_on_in_a2",
+  "category": "GRAMMAR",
+  "subcategory": "Preposition > Place Preposition",
+  "difficulty": "A2",
+  "targetAgeMin": 12,
+  "targetAgeMax": 12,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "place prepositions",
+    "at",
+    "on",
+    "in",
+    "grammar",
+    "A2"
+  ],
+  "definition": {
+    "name": "Place Prepositions: at, on, in",
+    "description": "Use 'at', 'on', and 'in' to describe where someone or something is. Use 'at' for a point or exact place, 'on' for a surface or line, and 'in' for inside a space, area, or container."
+  },
+  "examples": [
+    {
+      "english": "I am at the bus stop.",
+      "translation": "我在公交车站。",
+      "note": "Use 'at' for a point or exact place."
+    },
+    {
+      "english": "She is at the door.",
+      "translation": "她在门口。",
+      "note": "Use 'at' when the place is seen as a point."
+    },
+    {
+      "english": "The book is on the desk.",
+      "translation": "书在桌子上。",
+      "note": "Use 'on' when something touches a surface."
+    },
+    {
+      "english": "There is a picture on the wall.",
+      "translation": "墙上有一张图片。",
+      "note": "Use 'on' for a surface such as a wall."
+    },
+    {
+      "english": "The keys are in my bag.",
+      "translation": "钥匙在我的包里。",
+      "note": "Use 'in' when something is inside a container."
+    },
+    {
+      "english": "We live in Beijing.",
+      "translation": "我们住在北京。",
+      "note": "Use 'in' with cities, countries, and larger areas."
+    }
+  ],
+  "expressions": [
+    {
+      "expression": "at school",
+      "meaning": "in or near the school, especially as a place for studying",
+      "register": "neutral",
+      "scenario": "school"
+    },
+    {
+      "expression": "at home",
+      "meaning": "in one's home",
+      "register": "neutral",
+      "scenario": "daily conversation"
+    },
+    {
+      "expression": "on the bus",
+      "meaning": "inside a bus as a passenger",
+      "register": "neutral",
+      "scenario": "travel"
+    },
+    {
+      "expression": "on the left",
+      "meaning": "on the left side",
+      "register": "neutral",
+      "scenario": "giving directions"
+    },
+    {
+      "expression": "in class",
+      "meaning": "during a lesson, inside the learning situation",
+      "register": "neutral",
+      "scenario": "school"
+    },
+    {
+      "expression": "in the picture",
+      "meaning": "shown inside a picture or photo",
+      "register": "neutral",
+      "scenario": "describing images"
+    }
+  ],
+  "relatedTopics": [
+    "prepositions of time",
+    "there is and there are",
+    "giving directions",
+    "rooms and furniture",
+    "places in town",
+    "containers",
+    "describing pictures"
+  ],
+  "source": null,
+  "createdAt": "2026-08-05T00:00:00+09:00",
+  "updatedAt": null
+}

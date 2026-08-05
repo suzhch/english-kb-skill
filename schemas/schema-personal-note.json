@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-kb/schema-personal-note.json",
+
+  "title": "Personal Learning Note",
+
+  "type": "object",
+
+  "required": [
+    "id",
+    "knowledgePointId",
+    "note",
+    "createdAt"
+  ],
+
+  "properties": {
+
+    "id": {
+      "type": "string",
+      "pattern": "^note_"
+    },
+
+    "knowledgePointId": {
+      "type": "string"
+    },
+
+    "note": {
+      "type": "string"
+    },
+
+    "sourceContext": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

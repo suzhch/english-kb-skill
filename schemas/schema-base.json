@@ -1,0 +1,219 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-kb/schema-base.json",
+
+  "title": "English Knowledge Point",
+
+  "type": "object",
+
+  "required": [
+    "id",
+    "category",
+    "subcategory",
+    "difficulty",
+    "definition"
+  ],
+
+  "properties": {
+
+    "id": {
+      "type": "string",
+      "pattern": "^eng_"
+    },
+
+    "category": {
+      "type": "string",
+      "enum": [
+        "VOCABULARY",
+        "PHRASE",
+        "GRAMMAR",
+        "PRONUNCIATION",
+        "LISTENING",
+        "SPEAKING",
+        "WRITING",
+        "READING",
+        "CULTURE",
+        "META_LEARNING"
+      ]
+    },
+
+    "subcategory": {
+      "type": "string"
+    },
+
+    "difficulty": {
+      "type": "string",
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+
+    "targetAgeMin": {
+      "type": ["integer", "null"]
+    },
+
+    "targetAgeMax": {
+      "type": ["integer", "null"]
+    },
+
+    "targetAgeGroup": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "child",
+        "teen",
+        "adult",
+        "all",
+        null
+      ]
+    },
+
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+
+    "definition": {
+      "$ref": "#/$defs/Definition"
+    },
+
+    "examples": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Example"
+      }
+    },
+
+    "expressions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Expression"
+      }
+    },
+
+    "relatedTopics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+
+    "source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+
+    "updatedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  },
+
+  "$defs": {
+
+    "Definition": {
+      "type": "object",
+
+      "required": [
+        "name",
+        "description"
+      ],
+
+      "properties": {
+
+        "name": {
+          "type": "string"
+        },
+
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+
+    "Example": {
+      "type": "object",
+
+      "required": [
+        "english",
+        "translation"
+      ],
+
+      "properties": {
+
+        "english": {
+          "type": "string"
+        },
+
+        "translation": {
+          "type": "string"
+        },
+
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+
+    "Expression": {
+      "type": "object",
+
+      "required": [
+        "expression"
+      ],
+
+      "properties": {
+
+        "expression": {
+          "type": "string"
+        },
+
+        "meaning": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "register": {
+          "type": "string",
+          "enum": [
+            "formal",
+            "neutral",
+            "informal",
+            "slang"
+          ]
+        },
+
+        "scenario": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

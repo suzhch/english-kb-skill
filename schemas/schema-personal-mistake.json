@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-kb/schema-personal-mistake.json",
+
+  "title": "Personal Mistake Record",
+
+  "type": "object",
+
+  "required": [
+    "id",
+    "knowledgePointId",
+    "wrong",
+    "correct",
+    "occurredAt"
+  ],
+
+  "properties": {
+
+    "id": {
+      "type": "string",
+      "pattern": "^mistake_"
+    },
+
+    "knowledgePointId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+
+    "classificationStatus": {
+      "type": "string",
+      "enum": [
+        "CLASSIFIED",
+        "UNCLASSIFIED"
+      ]
+    },
+
+    "confidence": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+
+    "wrong": {
+      "type": "string"
+    },
+
+    "correct": {
+      "type": "string"
+    },
+
+    "explanation": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+
+    "source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+
+    "occurredAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}
