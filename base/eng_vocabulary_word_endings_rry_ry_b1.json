@@ -1,0 +1,103 @@
+{
+  "id": "eng_vocabulary_word_endings_rry_ry_b1",
+  "category": "VOCABULARY",
+  "subcategory": "Word Pattern > Suffix Contrast (-rry vs -ry)",
+  "difficulty": "B1",
+  "targetAgeMin": 16,
+  "targetAgeMax": 16,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "vocabulary",
+    "spelling",
+    "word endings",
+    "rry",
+    "ry",
+    "B1"
+  ],
+  "definition": {
+    "name": "Suffix Contrast: -rry and -ry",
+    "description": "At B1 level, learners should distinguish words ending in '-rry' from words ending in '-ry'. The patterns can sound similar in fast speech, but spelling and meaning are different. '-rry' appears in words like carry, worry, and berry, while '-ry' appears in words like memory, history, and library. Accurate recognition prevents frequent spelling errors and supports clearer writing."
+  },
+  "examples": [
+    {
+      "english": "Do not worry about the exam.",
+      "translation": "不要为考试担心。",
+      "note": "'Worry' ends with -rry and is a common verb."
+    },
+    {
+      "english": "Please carry these books to the library.",
+      "translation": "请把这些书搬到图书馆。",
+      "note": "The sentence includes both endings: carry (-rry) and library (-ry)."
+    },
+    {
+      "english": "This chapter explains the history of modern science.",
+      "translation": "这一章讲解现代科学史。",
+      "note": "'History' ends with -ry and is a noun."
+    },
+    {
+      "english": "She has a good memory for names.",
+      "translation": "她对名字记忆力很好。",
+      "note": "'Memory' ends with -ry and is a noun."
+    },
+    {
+      "english": "We picked fresh berries on the farm.",
+      "translation": "我们在农场摘了新鲜浆果。",
+      "note": "Singular 'berry' ends with -rry; plural is 'berries'."
+    },
+    {
+      "english": "I am sorry for the wrong date in my summary.",
+      "translation": "我为摘要里错误的日期道歉。",
+      "note": "'Sorry' ends with -rry and is frequent in formal and informal communication."
+    }
+  ],
+  "expressions": [
+    {
+      "expression": "in a hurry",
+      "meaning": "needing to do something quickly",
+      "register": "neutral",
+      "scenario": "daily conversation"
+    },
+    {
+      "expression": "no worries",
+      "meaning": "it is okay; do not worry",
+      "register": "informal",
+      "scenario": "daily conversation"
+    },
+    {
+      "expression": "make a summary",
+      "meaning": "write or give a short main-point version",
+      "register": "neutral",
+      "scenario": "school"
+    },
+    {
+      "expression": "from memory",
+      "meaning": "without reading notes",
+      "register": "neutral",
+      "scenario": "school"
+    },
+    {
+      "expression": "in theory",
+      "meaning": "according to ideas, not always real practice",
+      "register": "neutral",
+      "scenario": "academic writing"
+    },
+    {
+      "expression": "library card",
+      "meaning": "a card used to borrow books from a library",
+      "register": "neutral",
+      "scenario": "school"
+    }
+  ],
+  "relatedTopics": [
+    "spelling patterns",
+    "double consonants",
+    "common noun endings",
+    "verb and noun distinction",
+    "minimal spelling contrasts",
+    "word families",
+    "proofreading strategies"
+  ],
+  "source": null,
+  "createdAt": "2026-08-07T00:00:00+09:00",
+  "updatedAt": null
+}

@@ -1,0 +1,30 @@
+Generate an English Knowledge Point.
+
+Topic:
+
+相同后缀的单词
+
+Focus:
+
+ill
+
+Target Level:
+
+B1
+
+Target Age:
+
+16
+
+Schemas:
+
+schema-base.json
+
+schema-learning-asset.json
+
+Generate:
+
+Base Knowledge
+
+Multiple Learning Assets
+

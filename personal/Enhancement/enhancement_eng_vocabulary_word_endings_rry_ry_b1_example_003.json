@@ -1,0 +1,19 @@
+{
+  "id": "enhancement_eng_vocabulary_word_endings_rry_ry_b1_example_003",
+  "knowledgePointId": "eng_vocabulary_word_endings_rry_ry_b1",
+  "targetType": "EXAMPLE",
+  "targetId": null,
+  "enhancementType": "ALTERNATIVE_VIEW",
+  "title": "功能分组例句：动作词 vs 学科词",
+  "content": "Do not worry; carry your notes to the library, then review one chapter of history. 这个例句用动作词（worry, carry）和学科词（library, history）做功能分组。学习点：-rry 常出现在高频动作或情绪词，-ry 常出现在学校主题名词。",
+  "source": null,
+  "tags": [
+    "B1",
+    "中学生",
+    "EXAMPLE",
+    "classification",
+    "rry_vs_ry"
+  ],
+  "confidence": 0.93,
+  "createdAt": "2026-08-07T00:00:00+09:00"
+}

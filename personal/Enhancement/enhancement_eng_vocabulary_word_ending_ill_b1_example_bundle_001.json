@@ -1,0 +1,27 @@
+{
+  "id": "enhancement_eng_vocabulary_word_ending_ill_b1_example_bundle_001",
+  "knowledgePointId": "eng_vocabulary_word_ending_ill_b1",
+  "targetType": "EXAMPLE",
+  "targetId": null,
+  "enhancementType": "BETTER_EXAMPLE",
+  "title": "中学生B1例句强化包：-ill 后缀实用场景",
+  "content": [
+    "课堂管理场景：Stay still until I finish the instructions. 学习价值：同时练 still 和 until，在老师给指令的高频场景中理解‘保持不动+时间界限’的搭配。",
+    "学习计划场景：I do one vocabulary drill every night to build my writing skill. 学习价值：把 drill 和 skill 放进同一学习习惯句，帮助学生把‘训练’和‘能力提升’建立因果联系。",
+    "运动补水场景：After basketball practice, refill your bottle and sit still for two minutes. 学习价值：refill 用在真实校园生活，still 用在恢复状态，强调动作后的连续状态表达。",
+    "旅行通知场景：We will wait at the station until 7:30, then walk up the hill to the museum. 学习价值：until 与具体时间连用，hill 提供地点词，适合口语和写作中的行程描述。",
+    "考试反思场景：I still made small mistakes, but my grammar drill helped my reading skill. 学习价值：通过反思句把 still 的让步语气和 drill/skill 的学业语义结合，便于迁移到周记或学习总结。"
+  ],
+  "source": null,
+  "tags": [
+    "B1",
+    "中学生",
+    "EXAMPLE",
+    "ill",
+    "school",
+    "spelling",
+    "application"
+  ],
+  "confidence": 0.96,
+  "createdAt": "2026-08-07T00:00:00+09:00"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "enhancement_eng_vocabulary_word_endings_rry_ry_b1_example_001",
+  "knowledgePointId": "eng_vocabulary_word_endings_rry_ry_b1",
+  "targetType": "EXAMPLE",
+  "targetId": null,
+  "enhancementType": "BETTER_EXAMPLE",
+  "title": "校园口语：同句对比 -rry 和 -ry",
+  "content": "After P.E., I was in a hurry, so I forgot my history notebook in the gym. 这句话同时出现 hurry（-rry）和 history（-ry），适合中学生在赶时间和上课场景里记忆两个后缀。学习点：hurry 常见于动作状态，history 常见于学科名词。",
+  "source": null,
+  "tags": [
+    "B1",
+    "中学生",
+    "EXAMPLE",
+    "rry",
+    "ry",
+    "school"
+  ],
+  "confidence": 0.95,
+  "createdAt": "2026-08-07T00:00:00+09:00"
+}

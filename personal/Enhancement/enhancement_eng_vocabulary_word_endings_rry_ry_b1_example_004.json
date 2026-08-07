@@ -1,0 +1,19 @@
+{
+  "id": "enhancement_eng_vocabulary_word_endings_rry_ry_b1_example_004",
+  "knowledgePointId": "eng_vocabulary_word_endings_rry_ry_b1",
+  "targetType": "EXAMPLE",
+  "targetId": null,
+  "enhancementType": "BETTER_EXAMPLE",
+  "title": "考试复盘场景：高频可复用句",
+  "content": "Sorry, I was in a hurry, so my summary was too short. 这句可直接用于考试后复盘或与老师沟通。学习点：sorry、hurry（-rry）和 summary（-ry）在同一语境中反复出现，有助于区分并迁移到真实表达。",
+  "source": null,
+  "tags": [
+    "B1",
+    "中学生",
+    "EXAMPLE",
+    "exam",
+    "communication"
+  ],
+  "confidence": 0.94,
+  "createdAt": "2026-08-07T00:00:00+09:00"
+}

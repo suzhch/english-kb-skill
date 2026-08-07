@@ -1,0 +1,19 @@
+{
+  "id": "enhancement_eng_vocabulary_word_endings_rry_ry_b1_example_002",
+  "knowledgePointId": "eng_vocabulary_word_endings_rry_ry_b1",
+  "targetType": "EXAMPLE",
+  "targetId": null,
+  "enhancementType": "BETTER_EXAMPLE",
+  "title": "作业场景：摘要写作中的拼写提醒",
+  "content": "Please write a short summary from memory before dinner. 学习点：summary、memory 都是 -ry，容易被误写成 summarry 或 memorry。这个例句直接对应中学生常见的做阅读摘要任务，能提升实际写作准确率。",
+  "source": null,
+  "tags": [
+    "B1",
+    "中学生",
+    "EXAMPLE",
+    "writing",
+    "proofreading"
+  ],
+  "confidence": 0.96,
+  "createdAt": "2026-08-07T00:00:00+09:00"
+}
