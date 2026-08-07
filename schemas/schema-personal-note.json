@@ -1,15 +1,17 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://english-kb/schema-personal-note.json",
+  "$id": "https://english-kb/schema-personal-enhancement.json",
 
-  "title": "Personal Learning Note",
+  "title": "Personal Knowledge Enhancement",
 
   "type": "object",
 
   "required": [
     "id",
     "knowledgePointId",
-    "note",
+    "targetType",
+    "enhancementType",
+    "content",
     "createdAt"
   ],
 
@@ -17,22 +19,92 @@
 
     "id": {
       "type": "string",
-      "pattern": "^note_"
+      "pattern": "^enhancement_"
     },
 
     "knowledgePointId": {
-      "type": "string"
+      "type": "string",
+      "pattern": "^eng_"
     },
 
-    "note": {
-      "type": "string"
+    "targetType": {
+      "type": "string",
+      "enum": [
+        "KNOWLEDGE_POINT",
+        "DEFINITION",
+        "EXAMPLE",
+        "EXPRESSION",
+        "CLASSIFICATION",
+        "COMPARISON",
+        "ASSOCIATION",
+        "SCENARIO",
+        "COUNTER_EXAMPLE",
+        "CONFUSION",
+        "MNEMONIC",
+        "EXTENSION"
+      ]
     },
 
-    "sourceContext": {
+    "targetId": {
       "type": [
         "string",
         "null"
       ]
+    },
+
+    "enhancementType": {
+      "type": "string",
+      "enum": [
+        "BETTER_EXPLANATION",
+        "BETTER_EXAMPLE",
+        "ALTERNATIVE_VIEW",
+        "TEACHER_NOTE",
+        "BOOK_NOTE",
+        "AI_NOTE",
+        "PERSONAL_UNDERSTANDING",
+        "MEMORY_METHOD",
+        "VISUALIZATION",
+        "MIND_MAP",
+        "REFERENCE"
+      ]
+    },
+
+    "title": {
+      "type": "string"
+    },
+
+    "content": {
+      "type": "string"
+    },
+
+    "attachments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+
+    "source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+
+    "confidence": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
     },
 
     "createdAt": {
