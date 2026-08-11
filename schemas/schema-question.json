@@ -1,0 +1,333 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-kb/schema-question.json",
+
+  "title": "English Assessment Question",
+
+  "description": "Schema for an English assessment question generated from a question specification.",
+
+  "type": "object",
+
+  "additionalProperties": false,
+
+  "required": [
+    "id",
+    "knowledgePointId",
+    "questionType",
+    "difficulty",
+    "questionPurpose",
+    "cognitiveLevel",
+    "question",
+    "answer",
+    "explanation"
+  ],
+
+  "properties": {
+
+    "id": {
+      "type": "string",
+      "description": "Unique identifier of the question."
+    },
+
+    "knowledgePointId": {
+      "type": "string",
+      "description": "ID of the primary knowledge point being assessed."
+    },
+
+    "questionSpecId": {
+      "type": "string",
+      "description": "ID of the question specification used to generate this question."
+    },
+
+    "questionType": {
+      "$ref": "#/$defs/questionType"
+    },
+
+    "difficulty": {
+      "$ref": "#/$defs/difficulty"
+    },
+
+    "questionPurpose": {
+      "$ref": "#/$defs/questionPurpose"
+    },
+
+    "cognitiveLevel": {
+      "$ref": "#/$defs/cognitiveLevel"
+    },
+
+    "question": {
+      "$ref": "#/$defs/question"
+    },
+
+    "answer": {
+      "$ref": "#/$defs/answer"
+    },
+
+    "explanation": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Explanation of why the answer is correct."
+    },
+
+    "testedAspects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Specific aspects of the knowledge point tested by this question."
+    },
+
+    "distractors": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/distractor"
+      },
+      "description": "Possible incorrect answers and the misconceptions they may indicate."
+    },
+
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+
+    "metadata": {
+      "$ref": "#/$defs/metadata"
+    }
+  },
+
+  "$defs": {
+
+    "difficulty": {
+      "type": "string",
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+
+    "questionType": {
+      "type": "string",
+      "enum": [
+        "SINGLE_CHOICE",
+        "MULTIPLE_CHOICE",
+        "TRUE_FALSE",
+        "FILL_IN_THE_BLANK",
+        "SHORT_ANSWER",
+        "ORDERING",
+        "MATCHING",
+        "ERROR_CORRECTION",
+        "TRANSLATION"
+      ]
+    },
+
+    "questionPurpose": {
+      "type": "string",
+      "enum": [
+        "KNOWLEDGE_CHECK",
+        "APPLICATION",
+        "DIAGNOSIS",
+        "TRANSFER"
+      ]
+    },
+
+    "cognitiveLevel": {
+      "type": "string",
+      "enum": [
+        "RECALL",
+        "UNDERSTAND",
+        "APPLY",
+        "ANALYZE"
+      ]
+    },
+
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "stem"
+      ],
+
+      "properties": {
+
+        "stem": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The main question or instruction presented to the learner."
+        },
+
+        "context": {
+          "type": "string",
+          "description": "Optional context, passage, dialogue, or scenario."
+        },
+
+        "options": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/option"
+          },
+          "minItems": 2,
+          "maxItems": 10
+        },
+
+        "blanks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/blank"
+          },
+          "description": "Blank fields for fill-in-the-blank questions."
+        }
+      }
+    },
+
+    "option": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "id",
+        "text"
+      ],
+
+      "properties": {
+
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]*$"
+        },
+
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+
+    "blank": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "id"
+      ],
+
+      "properties": {
+
+        "id": {
+          "type": "string"
+        },
+
+        "position": {
+          "type": "integer",
+          "minimum": 0
+        },
+
+        "acceptedAnswers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        }
+      }
+    },
+
+    "answer": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "value"
+      ],
+
+      "properties": {
+
+        "value": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Canonical correct answer."
+        },
+
+        "correctOptionIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+
+        "acceptedAnswers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        }
+      }
+    },
+
+    "distractor": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "optionId",
+        "reason"
+      ],
+
+      "properties": {
+
+        "optionId": {
+          "type": "string"
+        },
+
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Likely misconception or error represented by this incorrect answer."
+        },
+
+        "errorType": {
+          "type": "string",
+          "description": "Optional identifier of the error type."
+        },
+
+        "relatedKnowledgePointId": {
+          "type": "string",
+          "description": "Optional knowledge point related to this misconception."
+        }
+      }
+    },
+
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "properties": {
+
+        "source": {
+          "type": "string"
+        },
+
+        "generatedBy": {
+          "type": "string"
+        },
+
+        "generatedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+
+        "version": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

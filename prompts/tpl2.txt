@@ -14,25 +14,25 @@ schema-personal-enhancement.json
 
 Knowledge Point
 
-base/eng_vocabulary_word_endings_rry_ry_b1.json
+{{Knowledge Point}}
 
 Target Type
 
-examples
+{{Target Type}}
 
 Difficulty
 
-B1
+{{Difficulty}}
 
 Optional Parameters
 
 Audience
 
-中学生
+{{Audience}}
 
 Language
 
-中文
+{{Audience}}
 
 
 ---

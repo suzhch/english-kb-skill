@@ -1,0 +1,258 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-kb/schema-question-spec.json",
+
+  "title": "English Question Generation Specification",
+
+  "description": "Specification for generating assessment questions from an English knowledge point.",
+
+  "type": "object",
+
+  "additionalProperties": false,
+
+  "required": [
+    "id",
+    "knowledgePointId",
+    "difficulty",
+    "questionType",
+    "questionPurpose",
+    "cognitiveLevel",
+    "count"
+  ],
+
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier of this question generation specification."
+    },
+
+    "knowledgePointId": {
+      "type": "string",
+      "description": "ID of the knowledge point to be assessed."
+    },
+
+    "difficulty": {
+      "$ref": "#/$defs/difficulty"
+    },
+
+    "questionType": {
+      "$ref": "#/$defs/questionType"
+    },
+
+    "questionPurpose": {
+      "$ref": "#/$defs/questionPurpose"
+    },
+
+    "cognitiveLevel": {
+      "$ref": "#/$defs/cognitiveLevel"
+    },
+
+    "count": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100,
+      "description": "Number of questions to generate."
+    },
+
+    "language": {
+      "type": "string",
+      "enum": [
+        "en",
+        "zh",
+        "ja"
+      ],
+      "default": "en",
+      "description": "Language used for instructions, explanations, or supporting content."
+    },
+
+    "audience": {
+      "type": "string",
+      "description": "Target learner group, such as elementary school students, middle school students, or adult learners."
+    },
+
+    "constraints": {
+      "$ref": "#/$defs/constraints"
+    },
+
+    "variation": {
+      "$ref": "#/$defs/variation"
+    }
+  },
+
+  "$defs": {
+
+    "difficulty": {
+      "type": "string",
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "description": "CEFR difficulty level."
+    },
+
+    "questionType": {
+      "type": "string",
+      "enum": [
+        "SINGLE_CHOICE",
+        "MULTIPLE_CHOICE",
+        "TRUE_FALSE",
+        "FILL_IN_THE_BLANK",
+        "SHORT_ANSWER",
+        "ORDERING",
+        "MATCHING",
+        "ERROR_CORRECTION",
+        "TRANSLATION"
+      ],
+      "description": "Type of assessment question."
+    },
+
+    "questionPurpose": {
+      "type": "string",
+      "enum": [
+        "KNOWLEDGE_CHECK",
+        "APPLICATION",
+        "DIAGNOSIS",
+        "TRANSFER"
+      ],
+      "description": "Purpose of the question."
+    },
+
+    "cognitiveLevel": {
+      "type": "string",
+      "enum": [
+        "RECALL",
+        "UNDERSTAND",
+        "APPLY",
+        "ANALYZE"
+      ],
+      "description": "Cognitive level required to answer the question."
+    },
+
+    "constraints": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "properties": {
+
+        "context": {
+          "type": "string",
+          "description": "Context in which the knowledge point should be tested."
+        },
+
+        "mustTest": {
+          "type": "array",
+          "description": "Specific aspects that every generated question should test.",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+
+        "mayTest": {
+          "type": "array",
+          "description": "Additional aspects that may be tested.",
+          "items": {
+            "type": "string"
+          }
+        },
+
+        "mustNotDependOn": {
+          "type": "array",
+          "description": "Knowledge or skills that the learner should not need in order to answer the question.",
+          "items": {
+            "type": "string"
+          }
+        },
+
+        "requiredVocabulary": {
+          "type": "array",
+          "description": "Vocabulary that may or should be used in the questions.",
+          "items": {
+            "type": "string"
+          }
+        },
+
+        "excludedVocabulary": {
+          "type": "array",
+          "description": "Vocabulary that should not be used.",
+          "items": {
+            "type": "string"
+          }
+        },
+
+        "minOptions": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 10
+        },
+
+        "maxOptions": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 10
+        },
+
+        "avoidAmbiguity": {
+          "type": "boolean",
+          "default": true,
+          "description": "Whether the question must have a clearly defensible correct answer."
+        },
+
+        "avoidTrickQuestions": {
+          "type": "boolean",
+          "default": true,
+          "description": "Whether questions designed mainly to trick the learner should be avoided."
+        },
+
+        "requireExplanation": {
+          "type": "boolean",
+          "default": true
+        },
+
+        "requireDistractorReasoning": {
+          "type": "boolean",
+          "default": true,
+          "description": "Whether incorrect options should include explanations of the likely learner misconception."
+        }
+      }
+    },
+
+    "variation": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "properties": {
+
+        "varyContext": {
+          "type": "boolean",
+          "default": true
+        },
+
+        "varyVocabulary": {
+          "type": "boolean",
+          "default": true
+        },
+
+        "varySurfaceForm": {
+          "type": "boolean",
+          "default": true,
+          "description": "Vary the wording and surface form while testing the same underlying knowledge."
+        },
+
+        "avoidDuplicateQuestions": {
+          "type": "boolean",
+          "default": true
+        },
+
+        "avoidSameCorrectOption": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    }
+  }
+}

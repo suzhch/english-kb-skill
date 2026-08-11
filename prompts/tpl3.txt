@@ -1,0 +1,31 @@
+请根据以下 Knowledge Point 和 Question Specification 生成测试题。
+
+在开始生成之前，必须读取并遵循以下 Schema：
+
+Question Specification Schema:
+schemas/schema-question-spec.json
+
+Question Schema:
+schemas/schema-question.json
+
+Knowledge Point:
+base/eng_grammar_place_in_inside_into_a2.json
+
+Question Specification:
+question-specs/spec_grammar_001.json
+
+执行要求：
+
+1. 读取并理解 `schema-question-spec.json`。
+2. 读取并理解 `schema-question.json`。
+3. 读取 Knowledge Point。
+4. 读取 Question Specification。
+5. 根据 `schema-question-spec.json` 验证 Question Specification。
+6. 根据 Knowledge Point 确定需要测试的知识。
+7. 根据 Question Specification 确定测试方式、难度、题型、认知层级等。
+8. 生成指定数量的测试题。
+9. 所有生成的测试题必须符合 `schema-question.json`。
+10. 对生成结果进行 Schema 验证和题目质量检查。
+11. 如果验证失败，修改后重新验证。
+12. 不要修改任何 Schema 文件。
+13. 将生成的题目保存到 `questions/` 目录。

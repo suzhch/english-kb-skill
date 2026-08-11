@@ -1,0 +1,168 @@
+[
+  {
+    "id": "asset_prepositions_core_usage_classification_b1",
+    "knowledgePointId": "eng_grammar_prepositions_core_usage_b1",
+    "strategy": "CLASSIFICATION",
+    "title": "Where This Knowledge Belongs",
+    "classification": {
+      "parent": "Grammar > Preposition > Meaning and Pattern Selection",
+      "reason": "This topic trains learners to choose prepositions by semantic function and fixed grammar patterns."
+    },
+    "createdAt": "2026-08-10T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_prepositions_core_usage_comparison_b1",
+    "knowledgePointId": "eng_grammar_prepositions_core_usage_b1",
+    "strategy": "COMPARISON",
+    "title": "In vs Into vs Inside",
+    "comparison": {
+      "compareWith": "in, into, inside",
+      "similarities": [
+        "All three are related to location and space.",
+        "All three are common in everyday English.",
+        "All three can be used with places such as room, bag, and box."
+      ],
+      "differences": [
+        "Use in for location: The keys are in my bag.",
+        "Use into for movement from outside to inside: She ran into the room.",
+        "Use inside for stronger contrast with outside: Wait inside the building.",
+        "Choose in when you describe a stable position.",
+        "Choose into when the verb shows motion.",
+        "Choose inside when you want to emphasize the inner area."
+      ]
+    },
+    "createdAt": "2026-08-10T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_prepositions_core_usage_association_b1",
+    "knowledgePointId": "eng_grammar_prepositions_core_usage_b1",
+    "strategy": "ASSOCIATION",
+    "title": "Connected Grammar",
+    "association": {
+      "relatedTopics": [
+        "verb plus preposition collocations",
+        "adjective plus preposition collocations",
+        "passive voice",
+        "place and movement descriptions",
+        "time expressions"
+      ],
+      "relatedWords": [
+        "depend on",
+        "interested in",
+        "good at",
+        "apologize for",
+        "responsible for"
+      ],
+      "note": "Group prepositions by function: time, place, movement, relationship, and fixed collocation."
+    },
+    "createdAt": "2026-08-10T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_prepositions_core_usage_example_b1",
+    "knowledgePointId": "eng_grammar_prepositions_core_usage_b1",
+    "strategy": "EXAMPLE",
+    "title": "Fixed Pattern Example",
+    "example": {
+      "english": "Our result depends on careful preparation.",
+      "translation": "我们的结果取决于充分准备。",
+      "note": "depends on is a fixed verb plus preposition pattern."
+    },
+    "createdAt": "2026-08-10T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_prepositions_core_usage_counter_example_b1",
+    "knowledgePointId": "eng_grammar_prepositions_core_usage_b1",
+    "strategy": "COUNTER_EXAMPLE",
+    "title": "Common Wrong Pattern",
+    "counterExample": {
+      "wrong": "She is interested on biology.",
+      "reason": "interested takes the preposition in, not on. Correct form: She is interested in biology."
+    },
+    "createdAt": "2026-08-10T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_prepositions_core_usage_scenario_b1",
+    "knowledgePointId": "eng_grammar_prepositions_core_usage_b1",
+    "strategy": "SCENARIO",
+    "title": "Real Situations",
+    "scenario": {
+      "description": "Office: We are responsible for the final report. School: I am good at chemistry but weak in history. Travel: We walked into the station at noon. Daily conversation: I did it by mistake, not on purpose. Academic writing: The results depend on sample size. Business email: Please send the file to me by 5 p.m."
+    },
+    "createdAt": "2026-08-10T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_prepositions_core_usage_dialogue_b1",
+    "knowledgePointId": "eng_grammar_prepositions_core_usage_b1",
+    "strategy": "DIALOGUE",
+    "title": "Project Planning Dialogue",
+    "dialogue": {
+      "conversation": [
+        {
+          "speaker": "Lina",
+          "text": "Who is responsible for the slides?"
+        },
+        {
+          "speaker": "Kai",
+          "text": "Mina is, and I am working on the data section."
+        },
+        {
+          "speaker": "Lina",
+          "text": "Great. Our grade depends on clear structure."
+        },
+        {
+          "speaker": "Kai",
+          "text": "Then let us meet at 4:00 in the library."
+        }
+      ]
+    },
+    "createdAt": "2026-08-10T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_prepositions_core_usage_mnemonic_b1",
+    "knowledgePointId": "eng_grammar_prepositions_core_usage_b1",
+    "strategy": "MNEMONIC",
+    "title": "Function First Rule",
+    "mnemonic": {
+      "method": "Decision tree",
+      "content": "Ask first: time, place, movement, or fixed phrase? If it is fixed phrase, memorize the pair as one chunk, such as interested in and depend on."
+    },
+    "createdAt": "2026-08-10T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_prepositions_core_usage_confusion_b1",
+    "knowledgePointId": "eng_grammar_prepositions_core_usage_b1",
+    "strategy": "CONFUSION",
+    "title": "Top Confusions",
+    "confusion": {
+      "confusedWith": "in vs into; at vs in for time; interested in vs interested on",
+      "reason": "Use into when movement crosses a boundary, use in for location, use at for exact clock time, and memorize adjective plus preposition patterns as fixed units."
+    },
+    "createdAt": "2026-08-10T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_prepositions_core_usage_extension_b1",
+    "knowledgePointId": "eng_grammar_prepositions_core_usage_b1",
+    "strategy": "EXTENSION",
+    "title": "What To Learn Next",
+    "extension": {
+      "nextTopics": [
+        "phrasal verbs with particles",
+        "advanced adjective plus preposition patterns",
+        "noun plus preposition combinations",
+        "preposition stranding in relative clauses",
+        "formal vs informal prepositional choices"
+      ]
+    },
+    "createdAt": "2026-08-10T00:00:00+09:00",
+    "updatedAt": null
+  }
+]

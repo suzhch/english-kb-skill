@@ -1,0 +1,96 @@
+{
+  "id": "eng_grammar_prepositions_core_usage_b1",
+  "category": "GRAMMAR",
+  "subcategory": "Preposition > Core Usage and Patterns",
+  "difficulty": "B1",
+  "targetAgeMin": 16,
+  "targetAgeMax": 16,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "prepositions",
+    "grammar",
+    "B1",
+    "usage patterns",
+    "collocation"
+  ],
+  "definition": {
+    "name": "Prepositions: Core Usage at B1",
+    "description": "Prepositions connect nouns, pronouns, and phrases to other parts of a sentence. At B1 level, learners need to choose prepositions based on meaning patterns such as time, place, movement, method, reason, and fixed combinations after verbs or adjectives."
+  },
+  "examples": [
+    {
+      "english": "The meeting starts at 9:30 and ends in the afternoon.",
+      "translation": "会议九点半开始，下午结束。",
+      "note": "Use 'at' for exact time and 'in' for a part of the day."
+    },
+    {
+      "english": "She walked into the classroom and sat by the window.",
+      "translation": "她走进教室，坐在窗边。",
+      "note": "Use 'into' for movement to the inside and 'by' for position near something."
+    },
+    {
+      "english": "I am interested in science and good at math.",
+      "translation": "我对科学感兴趣，并且擅长数学。",
+      "note": "Some adjectives require fixed prepositions, such as interested in and good at."
+    },
+    {
+      "english": "We discussed the plan with our teacher.",
+      "translation": "我们和老师讨论了这个计划。",
+      "note": "Use 'with' to show the person involved together in an action."
+    },
+    {
+      "english": "This report was written by Maya.",
+      "translation": "这份报告由玛雅撰写。",
+      "note": "Use 'by' to show the doer in passive voice."
+    },
+    {
+      "english": "He apologized for being late.",
+      "translation": "他为迟到道歉。",
+      "note": "Some verbs require fixed prepositions, such as apologize for."
+    }
+  ],
+  "expressions": [
+    {
+      "expression": "depend on",
+      "meaning": "to be decided by or influenced by something",
+      "register": "neutral",
+      "scenario": "school discussion"
+    },
+    {
+      "expression": "be responsible for",
+      "meaning": "to have a duty to deal with something",
+      "register": "formal",
+      "scenario": "project work"
+    },
+    {
+      "expression": "in detail",
+      "meaning": "with many specific points",
+      "register": "neutral",
+      "scenario": "academic writing"
+    },
+    {
+      "expression": "on purpose",
+      "meaning": "intentionally",
+      "register": "informal",
+      "scenario": "daily conversation"
+    },
+    {
+      "expression": "by mistake",
+      "meaning": "accidentally",
+      "register": "neutral",
+      "scenario": "daily conversation"
+    }
+  ],
+  "relatedTopics": [
+    "time prepositions",
+    "place prepositions",
+    "movement prepositions",
+    "verb plus preposition patterns",
+    "adjective plus preposition patterns",
+    "passive voice with by",
+    "phrasal verbs"
+  ],
+  "source": null,
+  "createdAt": "2026-08-10T00:00:00+09:00",
+  "updatedAt": null
+}

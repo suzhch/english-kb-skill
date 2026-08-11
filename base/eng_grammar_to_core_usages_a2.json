@@ -1,0 +1,102 @@
+{
+  "id": "eng_grammar_to_core_usages_a2",
+  "category": "GRAMMAR",
+  "subcategory": "Preposition and Infinitive Marker",
+  "difficulty": "A2",
+  "targetAgeMin": 12,
+  "targetAgeMax": 12,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "to",
+    "preposition",
+    "infinitive",
+    "direction",
+    "grammar",
+    "A2"
+  ],
+  "definition": {
+    "name": "Core Usages of 'to'",
+    "description": "At A2 level, 'to' is mainly used in four ways: (1) direction or destination (go to school), (2) receiver of an action (give it to me), (3) range endpoint in from ... to ... (from 8 to 10), and (4) infinitive marker before a base verb (want to play)."
+  },
+  "examples": [
+    {
+      "english": "I walk to school every day.",
+      "translation": "我每天走路去学校。",
+      "note": "Use 'to' for destination."
+    },
+    {
+      "english": "Please send the message to Lily.",
+      "translation": "请把信息发给 Lily。",
+      "note": "Use 'to' for the receiver."
+    },
+    {
+      "english": "Our class is from 9:00 to 10:00.",
+      "translation": "我们的课从9点到10点。",
+      "note": "Use 'to' as the end point of a range."
+    },
+    {
+      "english": "He wants to join the basketball club.",
+      "translation": "他想加入篮球社团。",
+      "note": "Use 'to + verb' after 'want'."
+    },
+    {
+      "english": "They need to finish their homework tonight.",
+      "translation": "他们今晚需要完成作业。",
+      "note": "Use 'to + verb' after 'need'."
+    },
+    {
+      "english": "Come to my desk after class.",
+      "translation": "下课后来我桌边。",
+      "note": "Use 'to' to show movement toward a place."
+    }
+  ],
+  "expressions": [
+    {
+      "expression": "go to school",
+      "meaning": "travel to school",
+      "register": "neutral",
+      "scenario": "school"
+    },
+    {
+      "expression": "talk to my teacher",
+      "meaning": "speak with the teacher",
+      "register": "neutral",
+      "scenario": "school"
+    },
+    {
+      "expression": "from Monday to Friday",
+      "meaning": "in the range Monday through Friday",
+      "register": "neutral",
+      "scenario": "daily conversation"
+    },
+    {
+      "expression": "want to learn",
+      "meaning": "have the desire to learn",
+      "register": "neutral",
+      "scenario": "school"
+    },
+    {
+      "expression": "need to study",
+      "meaning": "must study",
+      "register": "neutral",
+      "scenario": "school"
+    },
+    {
+      "expression": "listen to music",
+      "meaning": "pay attention to music",
+      "register": "neutral",
+      "scenario": "daily conversation"
+    }
+  ],
+  "relatedTopics": [
+    "prepositions of place and movement",
+    "from and to",
+    "verb patterns with infinitives",
+    "want to and need to",
+    "for and to (purpose vs receiver)",
+    "too and to"
+  ],
+  "source": null,
+  "createdAt": "2026-08-11T00:00:00+09:00",
+  "updatedAt": null
+}

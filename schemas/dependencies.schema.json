@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-kb/dependencies.schema.json",
+  "title": "English Knowledge — dependencies",
+  "type": "object",
+  "required": ["version", "edgeCount", "dependencies"],
+  "properties": {
+    "version": { "type": "string" },
+    "note": { "type": "string" },
+    "edgeCount": { "type": "integer", "minimum": 0 },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["knowledgePointId", "prerequisiteId", "strength"],
+        "properties": {
+          "knowledgePointId": { "type": "string", "pattern": "^eng_" },
+          "prerequisiteId": { "type": "string", "pattern": "^eng_" },
+          "strength": { "type": "string", "enum": ["hard", "soft"] },
+          "reason": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

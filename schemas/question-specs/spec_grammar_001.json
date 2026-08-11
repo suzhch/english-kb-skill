@@ -1,0 +1,33 @@
+{
+  "id": "spec_grammar_001",
+  "knowledgePointId": "eng_grammar_place_in_inside_into_a2",
+  "difficulty": "A2",
+  "questionType": "MULTIPLE_CHOICE",
+  "questionPurpose": "APPLICATION",
+  "cognitiveLevel": "APPLY",
+  "count": 5,
+  "language": "en",
+  "audience": "middle school students",
+  "constraints": {
+    "context": "daily routines",
+    "mustTest": [
+      "third-person singular",
+      "simple present"
+    ],
+    "mustNotDependOn": [
+      "past tense",
+      "present perfect"
+    ],
+    "avoidAmbiguity": true,
+    "avoidTrickQuestions": true,
+    "requireExplanation": true,
+    "requireDistractorReasoning": true
+  },
+  "variation": {
+    "varyContext": true,
+    "varyVocabulary": true,
+    "varySurfaceForm": true,
+    "avoidDuplicateQuestions": true,
+    "avoidSameCorrectOption": false
+  }
+}

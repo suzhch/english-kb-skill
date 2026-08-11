@@ -1,0 +1,25 @@
+{
+  "version": "v1",
+  "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
+  "edgeCount": 2,
+  "dependencies": [
+    {
+      "topicId": "eng_grammar_place_in_inside_into_a2",
+      "prerequisiteId": "eng_grammar_prepositions_core_usage_b1",
+      "strength": "hard",
+      "reason": "Must understand vibrations make sound before finding volume patterns"
+    },
+    {
+      "topicId": "eng_grammar_place_in_inside_into_b1",
+      "prerequisiteId": "eng_grammar_prepositions_core_usage_b1",
+      "strength": "hard",
+      "reason": "Finding patterns in volume requires 'volume' and 'vibration' vocabulary"
+    },
+    {
+      "topicId": "eng_grammar_place_prepositions_at_on_in_a2",
+      "prerequisiteId": "eng_grammar_prepositions_core_usage_b1",
+      "strength": "soft",
+      "reason": "Capital letter formation supports correct sizing in joined writing"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "english-kb-web-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Utilities for converting English KB JSON files to HTML snippets",
+  "scripts": {
+    "json2html": "node json-to-html-snippets.js",
+    "json2html:bundle": "node json-to-html-bundle.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

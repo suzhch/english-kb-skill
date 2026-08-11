@@ -1,0 +1,160 @@
+[
+  {
+    "id": "asset_to_core_usages_a2_classification",
+    "knowledgePointId": "eng_grammar_to_core_usages_a2",
+    "strategy": "CLASSIFICATION",
+    "title": "Where 'to' Belongs",
+    "classification": {
+      "parent": "Grammar > Preposition and Infinitive Marker",
+      "reason": "In A2 grammar, 'to' works both as a preposition (before nouns/pronouns) and as an infinitive marker (before base verbs)."
+    },
+    "createdAt": "2026-08-11T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_to_core_usages_a2_comparison",
+    "knowledgePointId": "eng_grammar_to_core_usages_a2",
+    "strategy": "COMPARISON",
+    "title": "'to' as Preposition vs 'to' before Verbs",
+    "comparison": {
+      "compareWith": "to (preposition) vs to + verb (infinitive marker)",
+      "similarities": [
+        "Both forms use the word 'to'.",
+        "Both appear in common A2 sentences."
+      ],
+      "differences": [
+        "Preposition 'to' is followed by a noun/pronoun: to school, to him.",
+        "Infinitive marker 'to' is followed by a base verb: to study, to play.",
+        "Use preposition 'to' for direction, receiver, or endpoint.",
+        "Use infinitive 'to' after certain verbs like want/need."
+      ]
+    },
+    "createdAt": "2026-08-11T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_to_core_usages_a2_association",
+    "knowledgePointId": "eng_grammar_to_core_usages_a2",
+    "strategy": "ASSOCIATION",
+    "title": "Related Patterns Around 'to'",
+    "association": {
+      "relatedTopics": [
+        "prepositions of movement",
+        "verb + object patterns",
+        "time range expressions",
+        "infinitive basics"
+      ],
+      "relatedWords": [
+        "go",
+        "come",
+        "give",
+        "send",
+        "from",
+        "want",
+        "need"
+      ],
+      "note": "A quick check: if the next word is a noun/pronoun, 'to' is usually a preposition; if the next word is a base verb, it is usually an infinitive marker."
+    },
+    "createdAt": "2026-08-11T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_to_core_usages_a2_counterexample_1",
+    "knowledgePointId": "eng_grammar_to_core_usages_a2",
+    "strategy": "COUNTER_EXAMPLE",
+    "title": "Wrong After 'want'",
+    "counterExample": {
+      "wrong": "I want go home.",
+      "reason": "After 'want', use 'to + base verb'. Correct: 'I want to go home.'"
+    },
+    "createdAt": "2026-08-11T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_to_core_usages_a2_counterexample_2",
+    "knowledgePointId": "eng_grammar_to_core_usages_a2",
+    "strategy": "COUNTER_EXAMPLE",
+    "title": "Wrong Direction Form",
+    "counterExample": {
+      "wrong": "She goes school at 7:30.",
+      "reason": "With destination nouns, use preposition 'to'. Correct: 'She goes to school at 7:30.'"
+    },
+    "createdAt": "2026-08-11T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_to_core_usages_a2_scenario",
+    "knowledgePointId": "eng_grammar_to_core_usages_a2",
+    "strategy": "SCENARIO",
+    "title": "Real Situations Using 'to'",
+    "scenario": {
+      "description": "Office: Please send the report to me by 5 p.m. School: We go to the library after class. Travel: The bus goes from the station to the airport. Daily conversation: I want to watch a movie tonight. Academic writing: Students need to compare two ideas. Business email: I am writing to confirm our meeting time."
+    },
+    "createdAt": "2026-08-11T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_to_core_usages_a2_mnemonic",
+    "knowledgePointId": "eng_grammar_to_core_usages_a2",
+    "strategy": "MNEMONIC",
+    "title": "Noun or Verb Check",
+    "mnemonic": {
+      "method": "Pattern check",
+      "content": "Look at the next word: to + noun/pronoun = direction/receiver/endpoint; to + base verb = infinitive action."
+    },
+    "createdAt": "2026-08-11T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_to_core_usages_a2_confusion",
+    "knowledgePointId": "eng_grammar_to_core_usages_a2",
+    "strategy": "CONFUSION",
+    "title": "to vs too",
+    "confusion": {
+      "confusedWith": "too",
+      "reason": "'to' is a preposition or infinitive marker. 'too' means 'also' or 'excessively'. Example: I want to play, too."
+    },
+    "createdAt": "2026-08-11T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_to_core_usages_a2_dialogue",
+    "knowledgePointId": "eng_grammar_to_core_usages_a2",
+    "strategy": "DIALOGUE",
+    "title": "After-School Plan",
+    "dialogue": {
+      "conversation": [
+        {
+          "speaker": "Amy",
+          "text": "Do you want to go to the sports center?"
+        },
+        {
+          "speaker": "Ben",
+          "text": "Yes. I need to return this ball to Tom first."
+        },
+        {
+          "speaker": "Amy",
+          "text": "Okay. We can walk from school to the center together."
+        }
+      ]
+    },
+    "createdAt": "2026-08-11T00:00:00+09:00",
+    "updatedAt": null
+  },
+  {
+    "id": "asset_to_core_usages_a2_extension",
+    "knowledgePointId": "eng_grammar_to_core_usages_a2",
+    "strategy": "EXTENSION",
+    "title": "What To Learn Next",
+    "extension": {
+      "nextTopics": [
+        "verb patterns: like to / love to / decide to",
+        "bare infinitive after modal verbs: can go, must study",
+        "preposition pairs: from ... to ...",
+        "for + purpose vs to + purpose"
+      ]
+    },
+    "createdAt": "2026-08-11T00:00:00+09:00",
+    "updatedAt": null
+  }
+]
