@@ -64,6 +64,15 @@ For example:
 9. Do not leak the answer through wording, option length, formatting, or metadata.
 10. Include explanations/rationales only when allowed by the schema.
 
+## Language
+
+- Chinese: the learner-facing instructions in `question.stem` (the tested
+  English sentence stays in English), `question.context` when it explains a
+  scenario, `explanation`, and `distractors[].reason`.
+- English: `question.context` when it is an English passage the learner must
+  read, `options[].text`, `answer.value`, `acceptedAnswers`,
+  `blanks[].acceptedAnswers`, and English sentences inside `question.stem`.
+
 ## Question Quality
 
 A good question should answer:

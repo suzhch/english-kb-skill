@@ -119,6 +119,16 @@ Provide logical and memorable memory methods. Do not invent false etymologies.
 
 Recommend closely related knowledge that should be studied next.
 
+## Language
+
+Write enhancement content in the learner's explanation language. For Chinese
+learners this is Chinese:
+
+- Chinese: `title` and the explanatory parts of `content[]` items.
+- English: example sentences, vocabulary, expressions, and other quoted
+  target-language material inside `content[]` items; they keep their original
+  English form.
+
 ## Output
 
 Write the enhancement file under the configured Personal Enhancement directory.

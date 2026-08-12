@@ -73,6 +73,16 @@ A good Knowledge Point:
 - does not contain excessive examples;
 - does not contain personal learning notes.
 
+## Language
+
+Write the Knowledge Point in the learner's explanation language. For Chinese
+learners this is Chinese:
+
+- Chinese: `definition.name`, `definition.description`, `examples[].translation`,
+  `examples[].note`, `expressions[].meaning`, `expressions[].scenario`.
+- English: `examples[].english`, `expressions[].expression`, `tags`,
+  `relatedTopics`, and the `register` enum value.
+
 ## Output
 
 Write the JSON file directly.

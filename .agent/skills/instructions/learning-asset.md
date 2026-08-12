@@ -98,6 +98,25 @@ When the user specifies one strategy or a subset of strategies:
 10. If an existing strategy item could be improved, leave it unchanged unless
     the user explicitly asks to update or replace it.
 
+## Language
+
+Write explanation and rationale fields in the learner's explanation language.
+For Chinese learners this is Chinese:
+
+- Chinese: `classification.reason`, `comparison.similarities`,
+  `comparison.differences`, `association.note`, `example.note`,
+  `example.translation`, `counterExample.reason`, `explanation.myUnderstanding`,
+  `confusion.reason`, `scenario.description`, `mnemonic.method`,
+  `mnemonic.content`, `production.mySentence` (the task prompt),
+  `production.feedback`.
+- English: `example.english`, `association.relatedWords`, `counterExample.wrong`,
+  `dialogue.conversation[].text`, and English terms in `compareWith`,
+  `confusedWith`, `parent`, and `extension.nextTopics`.
+
+Learner production (sentences the learner writes in `production`) stays in
+English; only the surrounding prompt and feedback are in the explanation
+language.
+
 ## Output
 
 Write the generated Learning Asset collection to the repository's established

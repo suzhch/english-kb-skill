@@ -152,6 +152,24 @@ Only create or modify files required by the user's request.
 
 Do not rename, reorganize, or delete unrelated knowledge-base files.
 
+### 10. Language policy
+
+Explanation fields and target-language corpus fields use different languages:
+
+- Write explanation fields in the learner's explanation language. For Chinese
+  learners this is Chinese. This covers judgment basis, error reasons, learning
+  rationale, comparison reasons, selection basis, definitions, notes,
+  comments, feedback, and translations.
+- Keep target-language corpus fields in English. This covers English example
+  sentences, vocabulary, expressions, dialogue text, and learner-facing
+  question or answer content that must stay in the target language.
+- Keep English terms for references such as topic names, tags, and
+  identifiers; add a short Chinese gloss when it helps the learner.
+
+The `Language` / `language` parameter selects the explanation language only. It
+never switches the target-language corpus fields to another language.
+Field-level lists are defined in each task instruction.
+
 ## Recommended Workflow
 
 ```text
