@@ -1,0 +1,248 @@
+{
+  "id": "asset_eng_grammar_prepositions_at_on_in_b1",
+  "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+  "title": "Learning assets for at / on / in",
+  "createdAt": "2026-08-12T14:15:00+09:00",
+  "updatedAt": null,
+  "assets": [
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_classification",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "CLASSIFICATION",
+      "title": "Grammar category",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "classification": {
+        "parent": "Prepositions of time and place",
+        "reason": "At, on, and in are core English prepositions used to locate events or objects in time and space. B1 learners need to choose among them by judging how specific or broad the time or place is."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_explanation",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "EXPLANATION",
+      "title": "Core rule",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "explanation": {
+        "myUnderstanding": "Use at for a precise point, such as a clock time or a specific place: at 7:30, at the station. Use on for a surface or a calendar day/date: on the wall, on Monday, on May 5. Use in for an enclosed or larger space and for longer time periods: in my bag, in China, in May, in 2026, in the morning."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_comparison",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "COMPARISON",
+      "title": "At vs on vs in",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "comparison": {
+        "compareWith": "at, on, and in",
+        "similarities": [
+          "All three can show time.",
+          "All three can show place.",
+          "All three often appear before nouns or noun phrases."
+        ],
+        "differences": [
+          "At usually points to an exact time or a specific point-like location.",
+          "On usually points to a day/date or contact with a surface.",
+          "In usually points to a longer time period or being inside an area, container, or space."
+        ]
+      }
+    },
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_association",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "ASSOCIATION",
+      "title": "Common chunks",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "association": {
+        "relatedTopics": [
+          "eng_grammar_prepositions_place_a2",
+          "eng_grammar_prepositions_time_a2",
+          "eng_vocabulary_daily_routines_a2"
+        ],
+        "relatedWords": [
+          "at 7 o'clock",
+          "at noon",
+          "at school",
+          "on Monday",
+          "on May 5",
+          "on the desk",
+          "in the morning",
+          "in 2026",
+          "in my bag"
+        ],
+        "note": "Teach these as useful chunks first, then connect them to the general rule of point, surface/day, and area/period."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_example_time_exact",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "EXAMPLE",
+      "title": "Exact time",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "example": {
+        "english": "The lesson starts at 8:20.",
+        "translation": "This lesson starts at eight twenty.",
+        "note": "Use at with an exact clock time."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_example_day",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "EXAMPLE",
+      "title": "Day or date",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "example": {
+        "english": "We have a science test on Thursday.",
+        "translation": "We have a science test on Thursday.",
+        "note": "Use on with a weekday or a date."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_example_period",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "EXAMPLE",
+      "title": "Longer time period",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "example": {
+        "english": "My cousin was born in 2012.",
+        "translation": "My cousin was born in 2012.",
+        "note": "Use in with years, months, seasons, and broad parts of the day."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_example_place",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "EXAMPLE",
+      "title": "Place contrast",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "example": {
+        "english": "Meet me at the library. I will be in the reading room.",
+        "translation": "Meet me at the library. I will be in the reading room.",
+        "note": "At the library treats the library as a meeting point; in the reading room focuses on being inside a room."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_counter_time",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "COUNTER_EXAMPLE",
+      "title": "Wrong preposition for exact time",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "counterExample": {
+        "wrong": "The train leaves in 6:45.",
+        "reason": "Use at 6:45 because 6:45 is an exact clock time. The correct sentence is: The train leaves at 6:45."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_counter_date",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "COUNTER_EXAMPLE",
+      "title": "Wrong preposition for a date",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "counterExample": {
+        "wrong": "Her birthday is in April 12.",
+        "reason": "Use on April 12 because a full date is treated like a calendar day. The correct sentence is: Her birthday is on April 12."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_confusion_bus",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "CONFUSION",
+      "title": "On the bus vs in the bus",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "confusion": {
+        "confusedWith": "on the bus and in the bus",
+        "reason": "On the bus is the normal phrase when someone is using a bus as transport. In the bus focuses on the physical inside of the vehicle, often when talking about an object or location inside it."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_scenario_school_day",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "SCENARIO",
+      "title": "School day schedule",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "scenario": {
+        "description": "A student describes a normal school day: arrive at school at 7:40, have art on Wednesday, eat lunch in the classroom on rainy days, and play basketball in the gym after school."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_dialogue",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "DIALOGUE",
+      "title": "Making plans",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "dialogue": {
+        "conversation": [
+          {
+            "speaker": "Mia",
+            "text": "Are you free on Saturday?"
+          },
+          {
+            "speaker": "Leo",
+            "text": "Yes. Let's meet at the sports center at 3:00."
+          },
+          {
+            "speaker": "Mia",
+            "text": "Good idea. We can play basketball in the gym."
+          },
+          {
+            "speaker": "Leo",
+            "text": "Great. I'll put my water bottle in my bag now."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_mnemonic",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "MNEMONIC",
+      "title": "Point, line, box",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "mnemonic": {
+        "method": "visual scale",
+        "content": "Think of at as a point, on as a surface or calendar square, and in as a box or larger period."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_production",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "PRODUCTION",
+      "title": "Learner production prompt",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "production": {
+        "mySentence": "Write three sentences about your week: one with at, one with on, and one with in.",
+        "feedback": "Check that at is used for an exact time or point, on for a day/date or surface, and in for a longer period or inside space.",
+        "score": 5
+      }
+    },
+    {
+      "id": "asset_eng_grammar_prepositions_at_on_in_b1_extension",
+      "knowledgePointId": "eng_grammar_prepositions_at_on_in_b1",
+      "strategy": "EXTENSION",
+      "title": "Next learning steps",
+      "createdAt": "2026-08-12T14:15:00+09:00",
+      "updatedAt": null,
+      "extension": {
+        "nextTopics": [
+          "Prepositions in fixed expressions",
+          "Prepositions with transport",
+          "Prepositions in time clauses",
+          "Common exceptions: at night, on the weekend, in the end"
+        ]
+      }
+    }
+  ]
+}

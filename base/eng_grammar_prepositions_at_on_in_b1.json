@@ -1,0 +1,122 @@
+{
+  "id": "eng_grammar_prepositions_at_on_in_b1",
+  "category": "GRAMMAR",
+  "subcategory": "PREPOSITION",
+  "difficulty": "B1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "prepositions",
+    "at",
+    "on",
+    "in",
+    "time",
+    "place",
+    "confusing grammar",
+    "middle school"
+  ],
+  "definition": {
+    "name": "at / on / in 的时间和地点用法",
+    "description": "at、on、in 都可以表示时间或地点，但它们看的范围不同：at 通常指一个具体点，on 通常指一个表面、日期或某一天，in 通常指一个较大的空间、时间段或范围。B1 学习者需要能根据语境判断说话人是在强调点、面，还是范围。"
+  },
+  "examples": [
+    {
+      "english": "We meet at 7:30 every morning.",
+      "translation": "我们每天早上七点半见面。",
+      "note": "at 用于具体时刻。"
+    },
+    {
+      "english": "The English test is on Friday.",
+      "translation": "英语考试在星期五。",
+      "note": "on 用于星期几。"
+    },
+    {
+      "english": "My birthday is on May 5.",
+      "translation": "我的生日是五月五日。",
+      "note": "on 用于具体日期。"
+    },
+    {
+      "english": "I usually do my homework in the evening.",
+      "translation": "我通常在晚上做作业。",
+      "note": "in 用于 morning、afternoon、evening 这类一天中的时间段。"
+    },
+    {
+      "english": "She was born in 2011.",
+      "translation": "她出生于 2011 年。",
+      "note": "in 用于年份、月份、季节等较长时间。"
+    },
+    {
+      "english": "He is waiting at the bus stop.",
+      "translation": "他正在公交站等。",
+      "note": "at 用于把地点看成一个具体位置点。"
+    },
+    {
+      "english": "There is a picture on the wall.",
+      "translation": "墙上有一幅画。",
+      "note": "on 表示在表面上。"
+    },
+    {
+      "english": "The keys are in my schoolbag.",
+      "translation": "钥匙在我的书包里。",
+      "note": "in 表示在某个空间或容器内部。"
+    },
+    {
+      "english": "We study at school, but we play basketball in the gym.",
+      "translation": "我们在学校学习，但在体育馆里打篮球。",
+      "note": "at school 强调学校这个活动地点；in the gym 强调在体育馆这个空间内部。"
+    },
+    {
+      "english": "The students are on the bus, and their bags are in the bus too.",
+      "translation": "学生们在公交车上，他们的书包也在公交车里。",
+      "note": "on the bus 是固定习惯说法，表示乘坐大型交通工具；in the bus 只强调物体在车内空间。"
+    }
+  ],
+  "expressions": [
+    {
+      "expression": "at 7 o'clock / at noon / at night / at the weekend",
+      "meaning": "用于具体时刻、特殊时间点或固定时间表达",
+      "register": "neutral",
+      "scenario": "谈论日程安排"
+    },
+    {
+      "expression": "on Monday / on May 5 / on a school day",
+      "meaning": "用于星期、具体日期或某一天",
+      "register": "neutral",
+      "scenario": "说明事情发生在哪一天"
+    },
+    {
+      "expression": "in May / in summer / in 2026 / in the morning",
+      "meaning": "用于月份、季节、年份和较长时间段",
+      "register": "neutral",
+      "scenario": "描述较宽的时间范围"
+    },
+    {
+      "expression": "at home / at school / at the station / at the door",
+      "meaning": "把地点看作一个具体位置或活动地点",
+      "register": "neutral",
+      "scenario": "说明人在什么地点"
+    },
+    {
+      "expression": "on the desk / on the wall / on the floor / on the page",
+      "meaning": "表示在某个表面上",
+      "register": "neutral",
+      "scenario": "描述物品位置"
+    },
+    {
+      "expression": "in the room / in the box / in my bag / in China",
+      "meaning": "表示在空间、容器、区域或国家内部",
+      "register": "neutral",
+      "scenario": "描述范围内部的位置"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_prepositions_place_a2",
+    "eng_grammar_prepositions_time_a2",
+    "eng_grammar_articles_common_nouns_a2",
+    "eng_vocabulary_daily_routines_a2"
+  ],
+  "source": null,
+  "createdAt": "2026-08-12T11:26:44.7052105+09:00",
+  "updatedAt": null
+}

@@ -1,0 +1,290 @@
+{
+  "id": "asset_eng_grammar_possession_of_s_b1",
+  "knowledgePointId": "eng_grammar_possession_of_s_b1",
+  "title": "Learning assets for English possession",
+  "createdAt": "2026-08-12T14:30:00+09:00",
+  "updatedAt": null,
+  "assets": [
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_classification",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "CLASSIFICATION",
+      "title": "Grammar category",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "classification": {
+        "parent": "Noun phrases and possessive structures",
+        "reason": "Possession is expressed inside noun phrases with possessive nouns, of-phrases, possessive adjectives, and possessive pronouns."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_explanation",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "EXPLANATION",
+      "title": "Core rule",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "explanation": {
+        "myUnderstanding": "Use 's for one person or irregular plural owners: Anna's bag, the children's room. Use s' for regular plural owners ending in -s: the students' desks. Use of for parts, features, abstract ideas, and long noun phrases: the cover of the book, the result of the exam. Use my, your, his, her, its, our, and their before nouns; use mine, yours, his, hers, ours, and theirs when the noun is not repeated."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_comparison_s_of",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "COMPARISON",
+      "title": "'s vs of",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "comparison": {
+        "compareWith": "'s and of",
+        "similarities": [
+          "Both can connect two nouns.",
+          "Both can show possession, belonging, part-whole relationships, or close connection."
+        ],
+        "differences": [
+          "'s is usually natural with people, animals, groups, organizations, and time expressions.",
+          "Of is usually natural with things, parts of things, qualities, results, titles, and abstract ideas.",
+          "'s puts the owner before the thing owned; of puts the thing owned or part before the owner or whole."
+        ]
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_comparison_adjective_pronoun",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "COMPARISON",
+      "title": "Possessive adjective vs possessive pronoun",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "comparison": {
+        "compareWith": "my / your / her and mine / yours / hers",
+        "similarities": [
+          "Both types show possession.",
+          "Both refer to the owner."
+        ],
+        "differences": [
+          "Possessive adjectives come before a noun: my book, your desk, her phone.",
+          "Possessive pronouns replace the noun phrase: mine, yours, hers.",
+          "Do not say mine book or your is blue."
+        ]
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_association",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "ASSOCIATION",
+      "title": "Useful chunks",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "association": {
+        "relatedTopics": [
+          "eng_grammar_pronouns_subject_object_a1",
+          "eng_grammar_nouns_singular_plural_a1",
+          "eng_grammar_noun_phrases_b1"
+        ],
+        "relatedWords": [
+          "my friend's house",
+          "the teacher's question",
+          "the students' homework",
+          "the children's books",
+          "the name of the school",
+          "the middle of the room",
+          "a friend of mine"
+        ],
+        "note": "Practice possession as chunks first, then ask learners to explain why each form is used."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_example_person",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "EXAMPLE",
+      "title": "One person",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "example": {
+        "english": "Lily's jacket is on the chair.",
+        "translation": "Lily's jacket is on the chair.",
+        "note": "Lily is one person, so use 's."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_example_plural",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "EXAMPLE",
+      "title": "Regular plural owner",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "example": {
+        "english": "The teachers' office is on the second floor.",
+        "translation": "The teachers' office is on the second floor.",
+        "note": "Teachers is a regular plural noun ending in -s, so add only an apostrophe."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_example_of",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "EXAMPLE",
+      "title": "Part of a thing",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "example": {
+        "english": "The handle of the cup is broken.",
+        "translation": "The handle of the cup is broken.",
+        "note": "Use of because the handle is a part of a thing."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_example_pronoun",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "EXAMPLE",
+      "title": "Avoid repeating nouns",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "example": {
+        "english": "This seat is mine. That one is yours.",
+        "translation": "This seat is mine. That one is yours.",
+        "note": "Mine means my seat; yours means your seat."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_counter_apostrophe",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "COUNTER_EXAMPLE",
+      "title": "Wrong apostrophe placement",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "counterExample": {
+        "wrong": "The student's books are on the table. (intended meaning: books belonging to several students)",
+        "reason": "Student's means one student. For several regular plural students, use students': The students' books are on the table."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_counter_of_person",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "COUNTER_EXAMPLE",
+      "title": "Unnatural of with a simple person owner",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "counterExample": {
+        "wrong": "The bike of Jack is outside.",
+        "reason": "This is understandable, but Jack's bike is more natural because the owner is a person and the phrase is short."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_counter_pronoun",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "COUNTER_EXAMPLE",
+      "title": "Wrong possessive adjective/pronoun choice",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "counterExample": {
+        "wrong": "This is mine pencil.",
+        "reason": "Mine is a possessive pronoun and cannot come before a noun. Say: This is my pencil. Or: This pencil is mine."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_confusion_its",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "CONFUSION",
+      "title": "Its vs it's",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "confusion": {
+        "confusedWith": "its and it's",
+        "reason": "Its means belonging to it, as in The cat moved its tail. It's means it is or it has, as in It's cold today."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_confusion_double_genitive",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "CONFUSION",
+      "title": "A friend of mine",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "confusion": {
+        "confusedWith": "a friend of me, my friend, and a friend of mine",
+        "reason": "A friend of mine is correct and means one of my friends. A friend of me is incorrect. My friend can refer to a specific friend already known from context."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_scenario",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "SCENARIO",
+      "title": "Lost and found",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "scenario": {
+        "description": "In a school lost-and-found office, students describe objects and owners: Anna's notebook, the boys' football, the color of the bag, and a phone that is not mine but hers."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_dialogue",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "DIALOGUE",
+      "title": "Finding the owner",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "dialogue": {
+        "conversation": [
+          {
+            "speaker": "Nina",
+            "text": "Is this your umbrella?"
+          },
+          {
+            "speaker": "Sam",
+            "text": "No, mine is blue. Maybe it's Emma's."
+          },
+          {
+            "speaker": "Nina",
+            "text": "The name on the handle is Emma."
+          },
+          {
+            "speaker": "Sam",
+            "text": "Then it must be hers."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_mnemonic",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "MNEMONIC",
+      "title": "Owner, group, thing",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "mnemonic": {
+        "method": "decision path",
+        "content": "Ask three questions: Is the owner a person or animal? Try 's. Is the owner a regular plural ending in -s? Use s'. Is it a part, feature, result, title, or abstract idea? Try of."
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_production",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "PRODUCTION",
+      "title": "Learner production prompt",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "production": {
+        "mySentence": "Write five sentences about your classroom or family. Use one sentence with 's, one with s', one with of, one with a possessive adjective, and one with a possessive pronoun.",
+        "feedback": "Check the owner: singular person uses 's, regular plural ending in -s uses s', things and abstract part-whole ideas often use of, possessive adjectives need a following noun, and possessive pronouns stand alone.",
+        "score": 5
+      }
+    },
+    {
+      "id": "asset_eng_grammar_possession_of_s_b1_extension",
+      "knowledgePointId": "eng_grammar_possession_of_s_b1",
+      "strategy": "EXTENSION",
+      "title": "Next learning steps",
+      "createdAt": "2026-08-12T14:30:00+09:00",
+      "updatedAt": null,
+      "extension": {
+        "nextTopics": [
+          "Compound noun phrases",
+          "Independent possessive pronouns",
+          "Double genitive: a friend of mine",
+          "Apostrophe conventions in writing",
+          "Partitive of-phrases"
+        ]
+      }
+    }
+  ]
+}

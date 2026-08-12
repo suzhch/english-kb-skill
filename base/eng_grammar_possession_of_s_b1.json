@@ -1,0 +1,113 @@
+{
+  "id": "eng_grammar_possession_of_s_b1",
+  "category": "GRAMMAR",
+  "subcategory": "POSSESSION",
+  "difficulty": "B1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "possession",
+    "possessive",
+    "of",
+    "'s",
+    "s apostrophe",
+    "possessive adjectives",
+    "possessive pronouns",
+    "noun phrases",
+    "middle school"
+  ],
+  "definition": {
+    "name": "Expressing possession with 's, s', of, and possessive forms",
+    "description": "English shows possession or belonging in several ways. Use 's or s' mainly with people, animals, groups, and time expressions. Use of mainly with things, parts, abstract ideas, and longer noun phrases. Use possessive adjectives such as my, your, his, her, its, our, and their before nouns, and possessive pronouns such as mine, yours, his, hers, ours, and theirs without a following noun."
+  },
+  "examples": [
+    {
+      "english": "This is Anna's notebook.",
+      "translation": "This is Anna's notebook.",
+      "note": "Use 's after a singular person's name."
+    },
+    {
+      "english": "The students' projects are on the wall.",
+      "translation": "The students' projects are on the wall.",
+      "note": "Use s' after a regular plural noun ending in -s."
+    },
+    {
+      "english": "The children's bags are in the classroom.",
+      "translation": "The children's bags are in the classroom.",
+      "note": "Use 's after an irregular plural noun that does not end in -s."
+    },
+    {
+      "english": "The color of the door is dark green.",
+      "translation": "The color of the door is dark green.",
+      "note": "Use of for a part, feature, or quality of a thing."
+    },
+    {
+      "english": "The end of the story surprised me.",
+      "translation": "The end of the story surprised me.",
+      "note": "Use of for abstract relationships such as the end of a story."
+    },
+    {
+      "english": "My phone is new, but yours is newer.",
+      "translation": "My phone is new, but yours is newer.",
+      "note": "My comes before a noun; yours replaces your phone."
+    },
+    {
+      "english": "A friend of my brother's is visiting us.",
+      "translation": "A friend of my brother's is visiting us.",
+      "note": "A friend of my brother's means one of my brother's friends."
+    },
+    {
+      "english": "Yesterday's meeting was short.",
+      "translation": "Yesterday's meeting was short.",
+      "note": "Use 's with some time expressions."
+    }
+  ],
+  "expressions": [
+    {
+      "expression": "Anna's notebook / my teacher's car / Tom's sister",
+      "meaning": "belonging to one person or closely connected with one person",
+      "register": "neutral",
+      "scenario": "talking about people and their things or relationships"
+    },
+    {
+      "expression": "the students' projects / my parents' house",
+      "meaning": "belonging to more than one person when the plural noun ends in -s",
+      "register": "neutral",
+      "scenario": "talking about groups and families"
+    },
+    {
+      "expression": "the children's toys / men's shoes / women's clothes",
+      "meaning": "belonging to an irregular plural noun",
+      "register": "neutral",
+      "scenario": "talking about plural groups whose noun form does not end in -s"
+    },
+    {
+      "expression": "the roof of the house / the title of the book / the result of the test",
+      "meaning": "a part, feature, name, or result connected with a thing or idea",
+      "register": "neutral",
+      "scenario": "describing objects, texts, events, and abstract ideas"
+    },
+    {
+      "expression": "my bag / your idea / his bike / her room / its tail / our class / their team",
+      "meaning": "possessive adjectives used before nouns",
+      "register": "neutral",
+      "scenario": "saying who something belongs to"
+    },
+    {
+      "expression": "mine / yours / his / hers / ours / theirs",
+      "meaning": "possessive pronouns used without a following noun",
+      "register": "neutral",
+      "scenario": "avoiding repeated nouns"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_pronouns_subject_object_a1",
+    "eng_grammar_nouns_singular_plural_a1",
+    "eng_grammar_articles_common_nouns_a2",
+    "eng_grammar_noun_phrases_b1"
+  ],
+  "source": null,
+  "createdAt": "2026-08-12T14:30:00+09:00",
+  "updatedAt": null
+}
