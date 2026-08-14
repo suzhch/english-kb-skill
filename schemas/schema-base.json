@@ -28,10 +28,13 @@
         "PHRASE",
         "GRAMMAR",
         "PRONUNCIATION",
+        "EXPRESSION",
         "LISTENING",
         "SPEAKING",
         "WRITING",
         "READING",
+        "SEMANTICS",
+        "PRAGMATICS",
         "CULTURE",
         "META_LEARNING"
       ]
