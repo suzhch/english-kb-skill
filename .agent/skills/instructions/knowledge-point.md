@@ -92,6 +92,7 @@ After completion, report:
 - created or updated path;
 - Knowledge Point ID;
 - category/subcategory;
-- validation result.
+- validation result;
+- generation log entry appended.
 
 Do not print the complete JSON unless explicitly requested.

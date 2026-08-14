@@ -53,6 +53,9 @@ Expected project layout:
 If the repository uses different paths, inspect the existing project structure and
 follow it rather than creating a competing directory structure.
 
+The project also maintains a generation log at `logs/generation.log.jsonl`
+via `scripts/log-generation.mjs`; see `instructions/file-writing.md`.
+
 ## Task Routing
 
 When the user asks to:
@@ -178,30 +181,28 @@ The `Language` / `language` parameter selects the explanation language only. It
 never switches the target-language corpus fields to another language.
 Field-level lists are defined in each task instruction.
 
+### 11. Generation logging
+
+After every create, update, or skip, append one entry to the generation log by
+running `scripts/log-generation.mjs`. Follow `instructions/file-writing.md`
+for the exact invocation and the log schema. `logs/generation.log.jsonl` is the
+append-only record of generation requests.
+
 ## Recommended Workflow
 
 ```text
 User request
-    ↓
-Identify artifact type
-    ↓
-Read relevant task instruction
-    ↓
-Read relevant schema
-    ↓
-Read existing related data
-    ↓
-Check taxonomy / references / duplicates
-    ↓
-Generate or update content
-    ↓
-Write JSON file(s)
-    ↓
-Validate
-    ↓
-Re-read and verify
-    ↓
-Concise summary
+  -> Identify artifact type
+  -> Read relevant task instruction
+  -> Read relevant schema
+  -> Read existing related data
+  -> Check taxonomy / references / duplicates
+  -> Generate or update content
+  -> Write JSON file(s)
+  -> Validate
+  -> Append generation log entry
+  -> Re-read and verify
+  -> Concise summary
 ```
 
 Article analysis tasks follow `instructions/article-analysis.md` and end with

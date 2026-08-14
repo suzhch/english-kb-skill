@@ -68,3 +68,13 @@ Analyze this article and list the knowledge points it contains at B1. For each
 knowledge point, mark whether it already exists in the knowledge base or is
 missing.
 ```
+
+## Logging
+
+Generation requests are recorded in the project's `logs/generation.log.jsonl`
+by `scripts/log-generation.mjs`, invoked as part of the `file-writing.md`
+workflow. Use its `--sync` mode to backfill missed entries:
+
+```powershell
+node scripts/log-generation.mjs --sync
+```

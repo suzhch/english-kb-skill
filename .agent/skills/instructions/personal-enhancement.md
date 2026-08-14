@@ -141,4 +141,5 @@ After writing, report:
 - Knowledge Point ID;
 - Target Type;
 - number of content items;
-- validation result.
+- validation result;
+- generation log entry appended.

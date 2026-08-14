@@ -1,0 +1,83 @@
+{
+  "id": "eng_vocabulary_word_formation_tion_b1",
+  "category": "VOCABULARY",
+  "subcategory": "WORD_FORMATION",
+  "difficulty": "B1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "-tion",
+    "suffix",
+    "noun",
+    "word formation",
+    "verb to noun",
+    "vocabulary"
+  ],
+  "definition": {
+    "name": "名词后缀 -tion（动词变名词）",
+    "description": "-tion 是最常见的名词后缀之一，常加在动词后构成名词，表示动作、过程、状态或结果。例如 inform（通知）→ information（信息），invent（发明）→ invention（发明）。常见拼写规律：以 -ate 结尾的动词去掉 e 加 -tion（celebrate → celebration）；以 -ize 结尾的动词去掉 e 加 -tion（organize → organization）；以 -ify 结尾的动词变为 -ification（simplify → simplification）。-tion 一般读作 /ʃən/，如 information。少数单词拼写有特殊变化，如 decide → decision、produce → production。"
+  },
+  "examples": [
+    {
+      "english": "Please give me some information about the tour.",
+      "translation": "请给我一些关于这次旅行（行程）的信息。",
+      "note": "inform（通知、告知）→ information（信息），表示动作产生的内容。"
+    },
+    {
+      "english": "Education is important for every child.",
+      "translation": "教育对每个孩子都很重要。",
+      "note": "educate（教育）→ education（教育），以 -ate 结尾的动词去掉 e 再加 -tion。"
+    },
+    {
+      "english": "The invention of the smartphone changed our lives.",
+      "translation": "智能手机的发明改变了我们的生活。",
+      "note": "invent（发明）→ invention（发明），表示动作本身及其结果。"
+    },
+    {
+      "english": "The celebration lasted all night.",
+      "translation": "庆祝活动持续了一整夜。",
+      "note": "celebrate（庆祝）→ celebration（庆祝活动、庆典）。"
+    },
+    {
+      "english": "Good communication helps people work together.",
+      "translation": "良好的沟通能帮助人们一起合作。",
+      "note": "communicate（交流、沟通）→ communication（沟通、交流）。"
+    },
+    {
+      "english": "The organization of the event took two weeks.",
+      "translation": "组织这次活动花了两周时间。",
+      "note": "organize（组织）→ organization（组织、筹备）。"
+    }
+  ],
+  "expressions": [
+    {
+      "expression": "verb + -tion → noun",
+      "meaning": "在动词后加 -tion 构成名词，表示动作、过程或结果",
+      "register": "neutral",
+      "scenario": "把动词变成名词，用于书面和口语中谈论抽象概念"
+    },
+    {
+      "expression": "communicate → communication, celebrate → celebration",
+      "meaning": "以 -ate 结尾的动词去掉 e 加 -tion",
+      "register": "neutral",
+      "scenario": "记忆以 -ate 结尾动词的名词形式"
+    },
+    {
+      "expression": "organize → organization, realize → realization",
+      "meaning": "以 -ize 结尾的动词去掉 e 加 -tion（-ization）",
+      "register": "neutral",
+      "scenario": "记忆以 -ize 结尾动词的名词形式"
+    },
+    {
+      "expression": "simplify → simplification, identify → identification",
+      "meaning": "以 -ify 结尾的动词，词尾变为 -ification",
+      "register": "neutral",
+      "scenario": "记忆以 -ify 结尾动词的名词形式"
+    }
+  ],
+  "relatedTopics": [],
+  "source": null,
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

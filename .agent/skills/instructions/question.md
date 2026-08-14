@@ -100,4 +100,5 @@ Report:
 - number of questions;
 - question type;
 - difficulty;
-- validation result.
+- validation result;
+- generation log entry appended.

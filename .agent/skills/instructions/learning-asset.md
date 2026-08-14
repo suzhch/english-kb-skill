@@ -125,3 +125,5 @@ Learning Asset directory.
 Validate against `schema-learning-asset.json`.
 
 Report only a concise summary after writing.
+
+Append a generation log entry via `scripts/log-generation.mjs` (see `file-writing.md`).
