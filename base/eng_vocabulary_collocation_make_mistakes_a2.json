@@ -1,0 +1,40 @@
+{
+  "id": "eng_vocabulary_collocation_make_mistakes_a2",
+  "category": "VOCABULARY",
+  "subcategory": "COLLOCATION",
+  "difficulty": "A2",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "make mistakes",
+    "collocation",
+    "make + noun",
+    "vocabulary"
+  ],
+  "definition": {
+    "name": "搭配 make mistakes（犯错）",
+    "description": "make mistakes 是固定搭配，表示“犯错”，动词用 make 而不是 do。文中 We all make mistakes. 即“我们都会犯错”。"
+  },
+  "examples": [
+    {
+      "english": "We all make mistakes.",
+      "translation": "我们都会犯错。",
+      "note": "make + mistakes 是常见搭配。"
+    }
+  ],
+  "expressions": [
+    {
+      "expression": "make a mistake / make mistakes",
+      "meaning": "犯错误",
+      "register": "neutral",
+      "scenario": "谈论错误或失误时使用"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_article_zero_plural_general_a2"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

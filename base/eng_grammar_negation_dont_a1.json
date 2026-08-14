@@ -1,0 +1,33 @@
+{
+  "id": "eng_grammar_negation_dont_a1",
+  "category": "GRAMMAR",
+  "subcategory": "NEGATION",
+  "difficulty": "A1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "don't",
+    "negation",
+    "negative",
+    "present simple",
+    "grammar"
+  ],
+  "definition": {
+    "name": "一般现在时否定（don’t + 动词原形）",
+    "description": "一般现在时的否定在动词前加 don’t（第三人称单数用 doesn’t），动词恢复原形。文中 I don’t blame you. 是否定用法。"
+  },
+  "examples": [
+    {
+      "english": "And I don’t blame you.",
+      "translation": "而且我不怪你。",
+      "note": "don't + 动词原形 blame 构成否定。"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_present_simple_a1"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

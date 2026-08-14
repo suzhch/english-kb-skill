@@ -1,0 +1,34 @@
+{
+  "id": "eng_grammar_modal_would_hypothetical_b1",
+  "category": "GRAMMAR",
+  "subcategory": "MODAL",
+  "difficulty": "B1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "would",
+    "modal",
+    "hypothetical",
+    "conditional",
+    "grammar"
+  ],
+  "definition": {
+    "name": "情态动词 would 表假设",
+    "description": "would 用于表达假设、虚拟或委婉的语气，常出现在条件句中。文中 I wouldn’t forgive me either. 用 wouldn’t 表达“在同样情况下我也不会原谅自己”的假设。"
+  },
+  "examples": [
+    {
+      "english": "I wouldn’t forgive me either.",
+      "translation": "换作是我，我也不会原谅我自己。",
+      "note": "wouldn't 表示虚拟假设下的行为。"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_modal_will_future_a2",
+    "eng_vocabulary_word_either_negative_b1"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

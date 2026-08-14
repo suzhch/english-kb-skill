@@ -1,0 +1,34 @@
+{
+  "id": "eng_pragmatics_speech_act_apology_b1",
+  "category": "PRAGMATICS",
+  "subcategory": "SPEECH_ACT",
+  "difficulty": "B1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "apology",
+    "speech act",
+    "blame",
+    "forgiveness",
+    "pragmatics"
+  ],
+  "definition": {
+    "name": "道歉与自我归责的语用表达",
+    "description": "在人际语境中，道歉常伴随承认责任、表达后悔或自我归责。文中 I know you’ll never forgive me. And I don’t blame you. I wouldn’t forgive me either. 通过“我知道你不会原谅我”“我不怪你”“我也不会原谅自己”层层表达歉意与自责，是典型的道歉言语行为。"
+  },
+  "examples": [
+    {
+      "english": "I know you’ll never forgive me. And I don’t blame you. I wouldn’t forgive me either.",
+      "translation": "我知道你永远不会原谅我。我也不怪你。换作是我，我也不会原谅自己。",
+      "note": "用 forgive、blame 和假设语气表达道歉与自责。"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_modal_would_hypothetical_b1",
+    "eng_vocabulary_word_blame_b1"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

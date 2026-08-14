@@ -1,0 +1,33 @@
+{
+  "id": "eng_grammar_article_zero_plural_general_a2",
+  "category": "GRAMMAR",
+  "subcategory": "ARTICLE",
+  "difficulty": "A2",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "zero article",
+    "plural nouns",
+    "general statements",
+    "articles",
+    "grammar"
+  ],
+  "definition": {
+    "name": "零冠词：复数名词表泛指",
+    "description": "用复数名词泛指某一类人或事物时，前面通常不加冠词。文中 We all make mistakes. 的 mistakes 是泛指，不特指某些错误。"
+  },
+  "examples": [
+    {
+      "english": "We all make mistakes.",
+      "translation": "我们都会犯错。",
+      "note": "mistakes 为复数泛指，不加冠词。"
+    }
+  ],
+  "relatedTopics": [
+    "eng_vocabulary_collocation_make_mistakes_a2"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

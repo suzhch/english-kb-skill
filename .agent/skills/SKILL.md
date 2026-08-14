@@ -3,7 +3,8 @@ name: english-kb
 description: >
   Create and maintain a structured English learning knowledge base.
   Use this skill when creating or updating English Knowledge Points,
-  Learning Assets, Personal Enhancements, or assessment Questions.
+  Learning Assets, Personal Enhancements, or assessment Questions, or when
+  analyzing an English article to list the Knowledge Points it contains.
   The skill uses the project's JSON Schemas and taxonomy, checks existing
   records before creating new ones, avoids duplicates, and writes validated
   JSON files to the appropriate directories.
@@ -19,6 +20,10 @@ Manage a structured English learning knowledge base with four main artifact type
 2. Learning Asset
 3. Personal Enhancement
 4. Question / Assessment
+
+The skill can also analyze an English article and report the Knowledge Points
+it contains, each tagged by difficulty and marked as already existing or
+missing in the knowledge base.
 
 The project uses JSON Schema as the structural contract and `schema-taxonomy.json`
 as the controlled vocabulary for Knowledge Point classification.
@@ -60,6 +65,9 @@ When the user asks to:
   read `instructions/personal-enhancement.md`
 - generate Questions:
   read `instructions/question.md`
+- analyze an article and list the Knowledge Points it contains, tagged by
+  difficulty with existence status:
+  read `instructions/article-analysis.md`
 
 Always read the relevant schema before creating or modifying JSON.
 
@@ -196,6 +204,9 @@ Re-read and verify
 Concise summary
 ```
 
+Article analysis tasks follow `instructions/article-analysis.md` and end with
+a report list; they do not write knowledge-base files.
+
 ## User Parameters
 
 The user may provide:
@@ -203,6 +214,7 @@ The user may provide:
 ```text
 Knowledge Point
 Target Type
+Article / 文章
 Difficulty
 Audience
 Language

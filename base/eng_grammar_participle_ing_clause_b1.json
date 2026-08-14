@@ -1,0 +1,33 @@
+{
+  "id": "eng_grammar_participle_ing_clause_b1",
+  "category": "GRAMMAR",
+  "subcategory": "PARTICIPLE",
+  "difficulty": "B1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "participle",
+    "-ing clause",
+    "present participle",
+    "adverbial",
+    "grammar"
+  ],
+  "definition": {
+    "name": "现在分词短语作状语（-ing clause）",
+    "description": "现在分词短语（-ing）可以作状语，表示伴随、原因或时间等，与主句主语逻辑一致。文中 Everyone comes to Zootopia, thinking they could be anything they want. 中 thinking… 表示伴随的状态。"
+  },
+  "examples": [
+    {
+      "english": "Everyone comes to Zootopia, thinking they could be anything they want.",
+      "translation": "每个人都来到动物城，想着自己能成为任何想成为的样子。",
+      "note": "thinking 短语作伴随状语，主语同为 everyone。"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_clause_nominal_what_b1"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

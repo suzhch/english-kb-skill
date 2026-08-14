@@ -1,0 +1,32 @@
+{
+  "id": "eng_grammar_clause_nominal_what_b1",
+  "category": "GRAMMAR",
+  "subcategory": "CLAUSE",
+  "difficulty": "B1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "what clause",
+    "nominal clause",
+    "relative clause",
+    "grammar"
+  ],
+  "definition": {
+    "name": "what 引导的名词性从句",
+    "description": "what 可以引导名词性从句，整个从句在句中充当主语、宾语或表语，相当于“所……的事物”。文中 You can only be what you are. 中 what you are 作 be 的表语。"
+  },
+  "examples": [
+    {
+      "english": "You can only be what you are.",
+      "translation": "你只能成为你本来的样子。",
+      "note": "what you are 是名词性从句，作 be 的表语。"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_participle_ing_clause_b1"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

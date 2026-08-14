@@ -1,0 +1,31 @@
+{
+  "id": "eng_vocabulary_word_messy_a2",
+  "category": "VOCABULARY",
+  "subcategory": "WORD",
+  "difficulty": "A2",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "messy",
+    "adjective",
+    "vocabulary"
+  ],
+  "definition": {
+    "name": "形容词 messy（凌乱的、麻烦的）",
+    "description": "messy 形容事物凌乱、不整洁，也可引申为“麻烦的、棘手的”。文中 Life’s a little bit messy. 表示“生活有点乱、不尽如人意”。"
+  },
+  "examples": [
+    {
+      "english": "Life’s a little bit messy.",
+      "translation": "生活总有点乱。",
+      "note": "Life's 是 Life is 的缩写；messy 描述状态。"
+    }
+  ],
+  "relatedTopics": [
+    "eng_vocabulary_phrase_a_little_bit_a2"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

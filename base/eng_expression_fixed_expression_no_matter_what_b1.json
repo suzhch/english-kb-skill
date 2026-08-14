@@ -1,0 +1,40 @@
+{
+  "id": "eng_expression_fixed_expression_no_matter_what_b1",
+  "category": "EXPRESSION",
+  "subcategory": "FIXED_EXPRESSION",
+  "difficulty": "B1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "no matter",
+    "fixed expression",
+    "concession",
+    "expression"
+  ],
+  "definition": {
+    "name": "固定表达 no matter + 疑问词",
+    "description": "no matter 后接疑问词（what, where, who, how…）构成让步表达，相当于“无论……”。文中 No matter what type of animal you are, change starts with you. 表示“无论你是什么动物”。"
+  },
+  "examples": [
+    {
+      "english": "No matter what type of animal you are, change starts with you.",
+      "translation": "无论你是什么动物，改变都从你开始。",
+      "note": "no matter what 表示“无论什么”。"
+    }
+  ],
+  "expressions": [
+    {
+      "expression": "no matter what / where / who / how",
+      "meaning": "无论什么/哪里/谁/怎样",
+      "register": "neutral",
+      "scenario": "表示让步条件，强调结果不受影响"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_conjunction_even_though_b1"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

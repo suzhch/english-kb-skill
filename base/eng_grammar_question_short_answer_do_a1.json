@@ -1,0 +1,33 @@
+{
+  "id": "eng_grammar_question_short_answer_do_a1",
+  "category": "GRAMMAR",
+  "subcategory": "QUESTION",
+  "difficulty": "A1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "short answer",
+    "do",
+    "yes/no question",
+    "auxiliary",
+    "grammar"
+  ],
+  "definition": {
+    "name": "助动词 do 的简短回答（Yes, I do.）",
+    "description": "对一般疑问句或陈述句进行肯定或否定简短回答时，用助动词 do / don’t 代替整个动词短语。文中 You know you love me. Yes, I do. 用 Yes, I do. 表示肯定。"
+  },
+  "examples": [
+    {
+      "english": "You know you love me. Yes, I do.",
+      "translation": "你知道你爱我。是的，我知道。",
+      "note": "Yes, I do. 用 do 代替 know，避免重复。"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_negation_dont_a1"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

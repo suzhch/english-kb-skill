@@ -1,0 +1,33 @@
+{
+  "id": "eng_grammar_modal_will_future_a2",
+  "category": "GRAMMAR",
+  "subcategory": "MODAL",
+  "difficulty": "A2",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "will",
+    "future",
+    "modal",
+    "prediction",
+    "grammar"
+  ],
+  "definition": {
+    "name": "情态动词 will 表将来（缩略形式 ’ll）",
+    "description": "will 用于表达对将来的预测、意图或承诺，常缩略为 ’ll，后接动词原形。文中 I know you’ll never forgive me. 用 you’ll 表达将来。"
+  },
+  "examples": [
+    {
+      "english": "I know you’ll never forgive me.",
+      "translation": "我知道你永远不会原谅我。",
+      "note": "you'll 是 you will 的缩略形式，表示将来。"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_modal_would_hypothetical_b1"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

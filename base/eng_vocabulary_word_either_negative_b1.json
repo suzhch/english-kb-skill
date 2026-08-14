@@ -1,0 +1,32 @@
+{
+  "id": "eng_vocabulary_word_either_negative_b1",
+  "category": "VOCABULARY",
+  "subcategory": "WORD",
+  "difficulty": "B1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "either",
+    "negative",
+    "too",
+    "vocabulary"
+  ],
+  "definition": {
+    "name": "either（否定句中的“也”）",
+    "description": "在否定句中表示“也（不）”，用 either，置于句末；肯定句中则用 too。文中 I wouldn’t forgive me either. 表示“我也不会原谅自己”。"
+  },
+  "examples": [
+    {
+      "english": "I wouldn’t forgive me either.",
+      "translation": "我也不会原谅我自己。",
+      "note": "either 用于否定句句末，表示“也不”。"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_modal_would_hypothetical_b1"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

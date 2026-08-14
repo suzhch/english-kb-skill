@@ -1,0 +1,33 @@
+{
+  "id": "eng_grammar_conjunction_even_though_b1",
+  "category": "GRAMMAR",
+  "subcategory": "CONJUNCTION",
+  "difficulty": "B1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "even though",
+    "concession",
+    "contrast",
+    "conjunction",
+    "grammar"
+  ],
+  "definition": {
+    "name": "让步连词 even though",
+    "description": "even though 引导让步状语从句，表示“即使、尽管”，强调后面的转折关系。文中 I wanna try even though I could fail. 表示“即使可能失败，也要尝试”。"
+  },
+  "examples": [
+    {
+      "english": "I wanna try even though I could fail.",
+      "translation": "我想试一试，即使我可能会失败。",
+      "note": "even though 从句表达让步，主句是 I wanna try。"
+    }
+  ],
+  "relatedTopics": [
+    "eng_expression_fixed_expression_no_matter_what_b1"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

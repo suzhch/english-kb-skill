@@ -21,6 +21,7 @@ The resulting layout should be:
         └── instructions/
             ├── knowledge-point.md
             ├── learning-asset.md
+            ├── article-analysis.md
             ├── personal-enhancement.md
             ├── question.md
             ├── schema-reference.md
@@ -60,4 +61,10 @@ Compare at, on, and in. Difficulty B1. Audience: 中学生. Language: 中文.
 ```text
 Generate 10 B1 MULTIPLE_CHOICE questions for
 eng_grammar_preposition_at_on_in_b1.
+```
+
+```text
+Analyze this article and list the knowledge points it contains at B1. For each
+knowledge point, mark whether it already exists in the knowledge base or is
+missing.
 ```

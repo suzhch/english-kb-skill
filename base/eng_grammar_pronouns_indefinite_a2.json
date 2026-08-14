@@ -1,0 +1,36 @@
+{
+  "id": "eng_grammar_pronouns_indefinite_a2",
+  "category": "GRAMMAR",
+  "subcategory": "PRONOUN",
+  "difficulty": "A2",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "indefinite pronouns",
+    "everything",
+    "anything",
+    "something",
+    "nothing",
+    "grammar"
+  ],
+  "definition": {
+    "name": "不定代词（everything / anything）",
+    "description": "不定代词表示不确定的人或事物，如 everything（一切）、anything（任何事物）、something（某事物）、nothing（没有东西）。文中 Try everything. 和 anything they want 使用了不定代词。"
+  },
+  "examples": [
+    {
+      "english": "Try everything.",
+      "translation": "去尝试一切。",
+      "note": "everything 表示所有事物。"
+    },
+    {
+      "english": "they could be anything they want",
+      "translation": "他们可以成为任何想成为的样子",
+      "note": "anything 表示任意的、不限定的事物。"
+    }
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

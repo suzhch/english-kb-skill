@@ -1,0 +1,40 @@
+# Zootopia.txt 知识点分析（按 difficulty）
+
+文章难度: B1（估算）
+Zootopia.txt 是《疯狂动物城》台词合集，含情态动词（could/would）、让步从句（even though）、现在分词短语（thinking...）、what 名词性从句等 B1 结构，整体判定为 B1。
+
+当前知识库仅有 2 条 B1 记录（eng_grammar_prepositions_at_on_in_b1、eng_grammar_possession_of_s_b1），而本文不含 at/on/in 用法，Life's 是 Life is 的缩写而非属有格，因此无 EXISTS、无 EXISTS_OTHER_DIFFICULTY，全部为 MISSING。
+
+## [不存在 · MISSING]
+
+### GRAMMAR
+- TENSE | 一般现在时表事实/状态（A1，低于文章级别）—— "Everyone comes to Zootopia." / "change starts with you." —— 建议ID: eng_grammar_present_simple_a1
+- MODAL | can / can't 表能力与可能性（A2，低于）—— "You can only be what you are." —— 建议ID: eng_grammar_modal_can_a2
+- MODAL | could 表可能性（A2，低于）—— "thinking they could be anything they want" —— 建议ID: eng_grammar_modal_could_a2
+- MODAL | will 表将来，缩略形式 'll（A2，低于）—— "I know you'll never forgive me." —— 建议ID: eng_grammar_modal_will_future_a2
+- MODAL | would 表假设（B1，与文章同级）—— "I wouldn't forgive me either." —— 建议ID: eng_grammar_modal_would_hypothetical_b1
+- NEGATION | don't + 动词原形（A1，低于）—— "I don't blame you." —— 建议ID: eng_grammar_negation_dont_a1
+- QUESTION | 助动词 do 的简短回答（A1，低于）—— "Yes, I do." —— 建议ID: eng_grammar_question_short_answer_do_a1
+- PRONOUN | 主格/宾格代词（A1，低于）—— "You know you love me." —— 建议ID: eng_grammar_pronouns_subject_object_a1
+- PRONOUN | 不定代词 everything / anything（A2，低于）—— "Try everything." —— 建议ID: eng_grammar_pronouns_indefinite_a2
+- ARTICLE | 复数名词表泛指用零冠词（A2，低于）—— "We all make mistakes." —— 建议ID: eng_grammar_article_zero_plural_general_a2
+- PARTICIPLE | 现在分词 -ing 短语作状语（B1，同级）—— "Everyone comes to Zootopia, thinking they could..." —— 建议ID: eng_grammar_participle_ing_clause_b1
+- CLAUSE | what 引导的名词性从句（B1，同级）—— "You can only be what you are." —— 建议ID: eng_grammar_clause_nominal_what_b1
+- CONJUNCTION | even though 让步从句（B1，同级）—— "I wanna try even though I could fail." —— 建议ID: eng_grammar_conjunction_even_though_b1
+
+### VOCABULARY
+- COLLOCATION | make mistakes（A2，低于）—— "We all make mistakes." —— 建议ID: eng_vocabulary_collocation_make_mistakes_a2
+- WORD | blame (v.)（B1，同级）—— "I don't blame you." —— 建议ID: eng_vocabulary_word_blame_b1
+- WORD | messy (adj.)（A2，低于）—— "Life's a little bit messy." —— 建议ID: eng_vocabulary_word_messy_a2
+- PHRASE | a little bit（A2，低于）—— "Life's a little bit messy." —— 建议ID: eng_vocabulary_phrase_a_little_bit_a2
+- WORD | either，否定句中的"也"（B1，同级）—— "I wouldn't forgive me either." —— 建议ID: eng_vocabulary_word_either_negative_b1
+- WORD | wanna（want to 的口语缩写，非正式语域，B1，同级）—— "I wanna try even though I could fail." —— 建议ID: eng_vocabulary_word_wanna_informal_b1
+
+### EXPRESSION
+- FIXED_EXPRESSION | no matter + 疑问词（B1，同级）—— "No matter what type of animal you are..." —— 建议ID: eng_expression_fixed_expression_no_matter_what_b1
+
+### PRAGMATICS
+- SPEECH_ACT | 道歉与自我归责（B1，同级）—— "I don't blame you. I wouldn't forgive me either." —— 建议ID: eng_pragmatics_speech_act_apology_b1
+
+## 总结
+共 21 个知识点：0 个已存在，0 个难度不同，21 个不存在。

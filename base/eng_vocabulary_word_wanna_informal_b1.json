@@ -1,0 +1,41 @@
+{
+  "id": "eng_vocabulary_word_wanna_informal_b1",
+  "category": "VOCABULARY",
+  "subcategory": "WORD",
+  "difficulty": "B1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "wanna",
+    "want to",
+    "informal",
+    "spoken",
+    "vocabulary"
+  ],
+  "definition": {
+    "name": "口语缩略 wanna（= want to）",
+    "description": "wanna 是 want to 在口语或非正式语体中的缩略形式，常见于歌词、台词与日常对话，书面语中应写 want to。文中 I wanna try… 即 I want to try…。"
+  },
+  "examples": [
+    {
+      "english": "I wanna try even though I could fail.",
+      "translation": "我想试一试，即使我可能会失败。",
+      "note": "wanna = want to，属非正式口语表达。"
+    }
+  ],
+  "expressions": [
+    {
+      "expression": "wanna (do something)",
+      "meaning": "想要（做某事）",
+      "register": "informal",
+      "scenario": "口语、歌词、影视台词中表达意愿"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_conjunction_even_though_b1"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

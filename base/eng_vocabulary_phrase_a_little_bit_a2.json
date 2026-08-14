@@ -1,0 +1,40 @@
+{
+  "id": "eng_vocabulary_phrase_a_little_bit_a2",
+  "category": "VOCABULARY",
+  "subcategory": "PHRASE",
+  "difficulty": "A2",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "a little bit",
+    "phrase",
+    "degree",
+    "vocabulary"
+  ],
+  "definition": {
+    "name": "短语 a little bit（有一点）",
+    "description": "a little bit 表示程度“有一点、稍微”，相当于 slightly，常修饰形容词。文中 Life’s a little bit messy. 表示“生活有点乱”。"
+  },
+  "examples": [
+    {
+      "english": "Life’s a little bit messy.",
+      "translation": "生活总有点乱。",
+      "note": "a little bit 修饰形容词 messy，表示程度轻。"
+    }
+  ],
+  "expressions": [
+    {
+      "expression": "a little bit",
+      "meaning": "有一点、稍微",
+      "register": "informal",
+      "scenario": "口语中修饰形容词，表示程度不深"
+    }
+  ],
+  "relatedTopics": [
+    "eng_vocabulary_word_messy_a2"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

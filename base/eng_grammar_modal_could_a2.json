@@ -1,0 +1,38 @@
+{
+  "id": "eng_grammar_modal_could_a2",
+  "category": "GRAMMAR",
+  "subcategory": "MODAL",
+  "difficulty": "A2",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "could",
+    "modal",
+    "possibility",
+    "past ability",
+    "grammar"
+  ],
+  "definition": {
+    "name": "情态动词 could（可能性）",
+    "description": "could 是 can 的过去式，也常用来表示现在或将来的可能性、委婉请求。文中 thinking they could be anything they want 用 could 表达想象中的可能。"
+  },
+  "examples": [
+    {
+      "english": "Everyone comes to Zootopia, thinking they could be anything they want.",
+      "translation": "每个人都来到动物城，想着自己可以成为任何想成为的样子。",
+      "note": "could be 表示想象中的可能性。"
+    },
+    {
+      "english": "I wanna try even though I could fail.",
+      "translation": "我想试一试，即使我可能会失败。",
+      "note": "could fail 表示可能失败。"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_modal_can_a2"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

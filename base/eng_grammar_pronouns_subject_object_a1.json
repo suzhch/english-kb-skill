@@ -1,0 +1,40 @@
+{
+  "id": "eng_grammar_pronouns_subject_object_a1",
+  "category": "GRAMMAR",
+  "subcategory": "PRONOUN",
+  "difficulty": "A1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "pronouns",
+    "subject pronouns",
+    "object pronouns",
+    "I",
+    "you",
+    "me",
+    "grammar"
+  ],
+  "definition": {
+    "name": "主格与宾格代词（I / you / me）",
+    "description": "主格代词（I, you, he, she…）作主语，宾格代词（me, you, him, her…）作动词或介词的宾语。文中 I know you’ll never forgive me. 中 I 是主语，you 和 me 是宾语。"
+  },
+  "examples": [
+    {
+      "english": "I know you’ll never forgive me.",
+      "translation": "我知道你永远不会原谅我。",
+      "note": "I 作主语；you、me 作宾语。"
+    },
+    {
+      "english": "You know you love me.",
+      "translation": "你知道你爱我。",
+      "note": "第一个 you 作主语，第二个 you 作从句主语，me 作宾语。"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_possession_of_s_b1"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

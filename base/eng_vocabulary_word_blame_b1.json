@@ -1,0 +1,31 @@
+{
+  "id": "eng_vocabulary_word_blame_b1",
+  "category": "VOCABULARY",
+  "subcategory": "WORD",
+  "difficulty": "B1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "blame",
+    "verb",
+    "vocabulary"
+  ],
+  "definition": {
+    "name": "动词 blame（责怪、归咎于）",
+    "description": "blame 作动词表示“责怪、把……归咎于”。常用搭配 blame somebody for something 或 don’t blame somebody。文中 I don’t blame you. 表示“我不怪你”。"
+  },
+  "examples": [
+    {
+      "english": "And I don’t blame you.",
+      "translation": "而且我不怪你。",
+      "note": "blame 后接人作宾语，表示责怪某人。"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_negation_dont_a1"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}

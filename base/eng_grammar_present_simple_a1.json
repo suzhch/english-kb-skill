@@ -1,0 +1,40 @@
+{
+  "id": "eng_grammar_present_simple_a1",
+  "category": "GRAMMAR",
+  "subcategory": "TENSE",
+  "difficulty": "A1",
+  "targetAgeMin": 12,
+  "targetAgeMax": 18,
+  "targetAgeGroup": "teen",
+  "tags": [
+    "present simple",
+    "simple present",
+    "facts",
+    "habits",
+    "state verbs",
+    "grammar"
+  ],
+  "definition": {
+    "name": "一般现在时（表事实、习惯与状态）",
+    "description": "一般现在时用于表达客观事实、普遍真理、日常习惯和状态。主语是第三人称单数时，动词加 -s/-es。Zootopia.txt 中用一般现在时陈述观点与事实，例如 Everyone comes to Zootopia. 和 change starts with you."
+  },
+  "examples": [
+    {
+      "english": "Everyone comes to Zootopia, thinking they could be anything they want.",
+      "translation": "每个人都来到动物城，想着自己能成为任何想成为的样子。",
+      "note": "comes 是第三人称单数形式，陈述普遍现象。"
+    },
+    {
+      "english": "No matter what type of animal you are, change starts with you.",
+      "translation": "无论你是什么动物，改变都从你开始。",
+      "note": "starts 为第三人称单数；are 表示状态。"
+    }
+  ],
+  "relatedTopics": [
+    "eng_grammar_negation_dont_a1",
+    "eng_grammar_question_short_answer_do_a1"
+  ],
+  "source": "Zootopia.txt",
+  "createdAt": "2026-08-14T09:00:00+09:00",
+  "updatedAt": null
+}
