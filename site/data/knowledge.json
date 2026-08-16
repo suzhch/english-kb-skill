@@ -1,0 +1,1523 @@
+{
+  "generatedAt": "2026-08-15T14:36:06.942Z",
+  "sources": [
+    "logs/generation.log.jsonl",
+    "base/*.json",
+    "base/*.learning-assets.json"
+  ],
+  "knowledgePoints": [
+    {
+      "id": "eng_expression_fixed_expression_no_matter_what_b1",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_expression_fixed_expression_no_matter_what_b1",
+        "file": "base/eng_expression_fixed_expression_no_matter_what_b1.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "EXPRESSION",
+        "subcategory": "FIXED_EXPRESSION",
+        "difficulty": "B1"
+      },
+      "content": {
+        "id": "eng_expression_fixed_expression_no_matter_what_b1",
+        "category": "EXPRESSION",
+        "subcategory": "FIXED_EXPRESSION",
+        "difficulty": "B1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "no matter",
+          "fixed expression",
+          "concession",
+          "expression"
+        ],
+        "definition": {
+          "name": "固定表达 no matter + 疑问词",
+          "description": "no matter 后接疑问词（what, where, who, how…）构成让步表达，相当于“无论……”。文中 No matter what type of animal you are, change starts with you. 表示“无论你是什么动物”。"
+        },
+        "examples": [
+          {
+            "english": "No matter what type of animal you are, change starts with you.",
+            "translation": "无论你是什么动物，改变都从你开始。",
+            "note": "no matter what 表示“无论什么”。"
+          }
+        ],
+        "expressions": [
+          {
+            "expression": "no matter what / where / who / how",
+            "meaning": "无论什么/哪里/谁/怎样",
+            "register": "neutral",
+            "scenario": "表示让步条件，强调结果不受影响"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_conjunction_even_though_b1"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_grammar_article_zero_plural_general_a2",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_grammar_article_zero_plural_general_a2",
+        "file": "base/eng_grammar_article_zero_plural_general_a2.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "GRAMMAR",
+        "subcategory": "ARTICLE",
+        "difficulty": "A2"
+      },
+      "content": {
+        "id": "eng_grammar_article_zero_plural_general_a2",
+        "category": "GRAMMAR",
+        "subcategory": "ARTICLE",
+        "difficulty": "A2",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "zero article",
+          "plural nouns",
+          "general statements",
+          "articles",
+          "grammar"
+        ],
+        "definition": {
+          "name": "零冠词：复数名词表泛指",
+          "description": "用复数名词泛指某一类人或事物时，前面通常不加冠词。文中 We all make mistakes. 的 mistakes 是泛指，不特指某些错误。"
+        },
+        "examples": [
+          {
+            "english": "We all make mistakes.",
+            "translation": "我们都会犯错。",
+            "note": "mistakes 为复数泛指，不加冠词。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_vocabulary_collocation_make_mistakes_a2"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_grammar_clause_nominal_what_b1",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_grammar_clause_nominal_what_b1",
+        "file": "base/eng_grammar_clause_nominal_what_b1.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "GRAMMAR",
+        "subcategory": "CLAUSE",
+        "difficulty": "B1"
+      },
+      "content": {
+        "id": "eng_grammar_clause_nominal_what_b1",
+        "category": "GRAMMAR",
+        "subcategory": "CLAUSE",
+        "difficulty": "B1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "what clause",
+          "nominal clause",
+          "relative clause",
+          "grammar"
+        ],
+        "definition": {
+          "name": "what 引导的名词性从句",
+          "description": "what 可以引导名词性从句，整个从句在句中充当主语、宾语或表语，相当于“所……的事物”。文中 You can only be what you are. 中 what you are 作 be 的表语。"
+        },
+        "examples": [
+          {
+            "english": "You can only be what you are.",
+            "translation": "你只能成为你本来的样子。",
+            "note": "what you are 是名词性从句，作 be 的表语。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_participle_ing_clause_b1"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_grammar_conjunction_even_though_b1",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_grammar_conjunction_even_though_b1",
+        "file": "base/eng_grammar_conjunction_even_though_b1.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "GRAMMAR",
+        "subcategory": "CONJUNCTION",
+        "difficulty": "B1"
+      },
+      "content": {
+        "id": "eng_grammar_conjunction_even_though_b1",
+        "category": "GRAMMAR",
+        "subcategory": "CONJUNCTION",
+        "difficulty": "B1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "even though",
+          "concession",
+          "contrast",
+          "conjunction",
+          "grammar"
+        ],
+        "definition": {
+          "name": "让步连词 even though",
+          "description": "even though 引导让步状语从句，表示“即使、尽管”，强调后面的转折关系。文中 I wanna try even though I could fail. 表示“即使可能失败，也要尝试”。"
+        },
+        "examples": [
+          {
+            "english": "I wanna try even though I could fail.",
+            "translation": "我想试一试，即使我可能会失败。",
+            "note": "even though 从句表达让步，主句是 I wanna try。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_expression_fixed_expression_no_matter_what_b1"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_grammar_modal_can_a2",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_grammar_modal_can_a2",
+        "file": "base/eng_grammar_modal_can_a2.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "GRAMMAR",
+        "subcategory": "MODAL",
+        "difficulty": "A2"
+      },
+      "content": {
+        "id": "eng_grammar_modal_can_a2",
+        "category": "GRAMMAR",
+        "subcategory": "MODAL",
+        "difficulty": "A2",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "can",
+          "can't",
+          "modal",
+          "ability",
+          "possibility",
+          "grammar"
+        ],
+        "definition": {
+          "name": "情态动词 can / can’t（能力与可能性）",
+          "description": "can 表示能力、可能性或许可，否定形式为 can’t（cannot）。can 后接动词原形，不随主语变化。文中 You can only be what you are. 用 can 表达“只能、可能”的含义。"
+        },
+        "examples": [
+          {
+            "english": "You can only be what you are.",
+            "translation": "你只能做你自己。",
+            "note": "can 后接动词原形 be，表示可能性或能力。"
+          },
+          {
+            "english": "But you can’t.",
+            "translation": "但你做不到。",
+            "note": "can't 是 can 的否定形式。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_modal_could_a2"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_grammar_modal_could_a2",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_grammar_modal_could_a2",
+        "file": "base/eng_grammar_modal_could_a2.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "GRAMMAR",
+        "subcategory": "MODAL",
+        "difficulty": "A2"
+      },
+      "content": {
+        "id": "eng_grammar_modal_could_a2",
+        "category": "GRAMMAR",
+        "subcategory": "MODAL",
+        "difficulty": "A2",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "could",
+          "modal",
+          "possibility",
+          "past ability",
+          "grammar"
+        ],
+        "definition": {
+          "name": "情态动词 could（可能性）",
+          "description": "could 是 can 的过去式，也常用来表示现在或将来的可能性、委婉请求。文中 thinking they could be anything they want 用 could 表达想象中的可能。"
+        },
+        "examples": [
+          {
+            "english": "Everyone comes to Zootopia, thinking they could be anything they want.",
+            "translation": "每个人都来到动物城，想着自己可以成为任何想成为的样子。",
+            "note": "could be 表示想象中的可能性。"
+          },
+          {
+            "english": "I wanna try even though I could fail.",
+            "translation": "我想试一试，即使我可能会失败。",
+            "note": "could fail 表示可能失败。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_modal_can_a2"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_grammar_modal_will_future_a2",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_grammar_modal_will_future_a2",
+        "file": "base/eng_grammar_modal_will_future_a2.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "GRAMMAR",
+        "subcategory": "MODAL",
+        "difficulty": "A2"
+      },
+      "content": {
+        "id": "eng_grammar_modal_will_future_a2",
+        "category": "GRAMMAR",
+        "subcategory": "MODAL",
+        "difficulty": "A2",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "will",
+          "future",
+          "modal",
+          "prediction",
+          "grammar"
+        ],
+        "definition": {
+          "name": "情态动词 will 表将来（缩略形式 ’ll）",
+          "description": "will 用于表达对将来的预测、意图或承诺，常缩略为 ’ll，后接动词原形。文中 I know you’ll never forgive me. 用 you’ll 表达将来。"
+        },
+        "examples": [
+          {
+            "english": "I know you’ll never forgive me.",
+            "translation": "我知道你永远不会原谅我。",
+            "note": "you'll 是 you will 的缩略形式，表示将来。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_modal_would_hypothetical_b1"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_grammar_modal_would_hypothetical_b1",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_grammar_modal_would_hypothetical_b1",
+        "file": "base/eng_grammar_modal_would_hypothetical_b1.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "GRAMMAR",
+        "subcategory": "MODAL",
+        "difficulty": "B1"
+      },
+      "content": {
+        "id": "eng_grammar_modal_would_hypothetical_b1",
+        "category": "GRAMMAR",
+        "subcategory": "MODAL",
+        "difficulty": "B1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "would",
+          "modal",
+          "hypothetical",
+          "conditional",
+          "grammar"
+        ],
+        "definition": {
+          "name": "情态动词 would 表假设",
+          "description": "would 用于表达假设、虚拟或委婉的语气，常出现在条件句中。文中 I wouldn’t forgive me either. 用 wouldn’t 表达“在同样情况下我也不会原谅自己”的假设。"
+        },
+        "examples": [
+          {
+            "english": "I wouldn’t forgive me either.",
+            "translation": "换作是我，我也不会原谅我自己。",
+            "note": "wouldn't 表示虚拟假设下的行为。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_modal_will_future_a2",
+          "eng_vocabulary_word_either_negative_b1"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 14,
+      "assetStrategies": [
+        "CLASSIFICATION",
+        "EXPLANATION",
+        "COMPARISON",
+        "ASSOCIATION",
+        "EXAMPLE",
+        "COUNTER_EXAMPLE",
+        "CONFUSION",
+        "SCENARIO",
+        "DIALOGUE",
+        "MNEMONIC",
+        "PRODUCTION",
+        "EXTENSION"
+      ]
+    },
+    {
+      "id": "eng_grammar_negation_dont_a1",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_grammar_negation_dont_a1",
+        "file": "base/eng_grammar_negation_dont_a1.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "GRAMMAR",
+        "subcategory": "NEGATION",
+        "difficulty": "A1"
+      },
+      "content": {
+        "id": "eng_grammar_negation_dont_a1",
+        "category": "GRAMMAR",
+        "subcategory": "NEGATION",
+        "difficulty": "A1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "don't",
+          "negation",
+          "negative",
+          "present simple",
+          "grammar"
+        ],
+        "definition": {
+          "name": "一般现在时否定（don’t + 动词原形）",
+          "description": "一般现在时的否定在动词前加 don’t（第三人称单数用 doesn’t），动词恢复原形。文中 I don’t blame you. 是否定用法。"
+        },
+        "examples": [
+          {
+            "english": "And I don’t blame you.",
+            "translation": "而且我不怪你。",
+            "note": "don't + 动词原形 blame 构成否定。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_present_simple_a1"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_grammar_participle_ing_clause_b1",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_grammar_participle_ing_clause_b1",
+        "file": "base/eng_grammar_participle_ing_clause_b1.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "GRAMMAR",
+        "subcategory": "PARTICIPLE",
+        "difficulty": "B1"
+      },
+      "content": {
+        "id": "eng_grammar_participle_ing_clause_b1",
+        "category": "GRAMMAR",
+        "subcategory": "PARTICIPLE",
+        "difficulty": "B1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "participle",
+          "-ing clause",
+          "present participle",
+          "adverbial",
+          "grammar"
+        ],
+        "definition": {
+          "name": "现在分词短语作状语（-ing clause）",
+          "description": "现在分词短语（-ing）可以作状语，表示伴随、原因或时间等，与主句主语逻辑一致。文中 Everyone comes to Zootopia, thinking they could be anything they want. 中 thinking… 表示伴随的状态。"
+        },
+        "examples": [
+          {
+            "english": "Everyone comes to Zootopia, thinking they could be anything they want.",
+            "translation": "每个人都来到动物城，想着自己能成为任何想成为的样子。",
+            "note": "thinking 短语作伴随状语，主语同为 everyone。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_clause_nominal_what_b1"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_grammar_present_simple_a1",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_grammar_present_simple_a1",
+        "file": "base/eng_grammar_present_simple_a1.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "GRAMMAR",
+        "subcategory": "TENSE",
+        "difficulty": "A1"
+      },
+      "content": {
+        "id": "eng_grammar_present_simple_a1",
+        "category": "GRAMMAR",
+        "subcategory": "TENSE",
+        "difficulty": "A1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "present simple",
+          "simple present",
+          "facts",
+          "habits",
+          "state verbs",
+          "grammar"
+        ],
+        "definition": {
+          "name": "一般现在时（表事实、习惯与状态）",
+          "description": "一般现在时用于表达客观事实、普遍真理、日常习惯和状态。主语是第三人称单数时，动词加 -s/-es。Zootopia.txt 中用一般现在时陈述观点与事实，例如 Everyone comes to Zootopia. 和 change starts with you."
+        },
+        "examples": [
+          {
+            "english": "Everyone comes to Zootopia, thinking they could be anything they want.",
+            "translation": "每个人都来到动物城，想着自己能成为任何想成为的样子。",
+            "note": "comes 是第三人称单数形式，陈述普遍现象。"
+          },
+          {
+            "english": "No matter what type of animal you are, change starts with you.",
+            "translation": "无论你是什么动物，改变都从你开始。",
+            "note": "starts 为第三人称单数；are 表示状态。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_negation_dont_a1",
+          "eng_grammar_question_short_answer_do_a1"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_grammar_pronouns_indefinite_a2",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_grammar_pronouns_indefinite_a2",
+        "file": "base/eng_grammar_pronouns_indefinite_a2.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "GRAMMAR",
+        "subcategory": "PRONOUN",
+        "difficulty": "A2"
+      },
+      "content": {
+        "id": "eng_grammar_pronouns_indefinite_a2",
+        "category": "GRAMMAR",
+        "subcategory": "PRONOUN",
+        "difficulty": "A2",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "indefinite pronouns",
+          "everything",
+          "anything",
+          "something",
+          "nothing",
+          "grammar"
+        ],
+        "definition": {
+          "name": "不定代词（everything / anything）",
+          "description": "不定代词表示不确定的人或事物，如 everything（一切）、anything（任何事物）、something（某事物）、nothing（没有东西）。文中 Try everything. 和 anything they want 使用了不定代词。"
+        },
+        "examples": [
+          {
+            "english": "Try everything.",
+            "translation": "去尝试一切。",
+            "note": "everything 表示所有事物。"
+          },
+          {
+            "english": "they could be anything they want",
+            "translation": "他们可以成为任何想成为的样子",
+            "note": "anything 表示任意的、不限定的事物。"
+          }
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_grammar_pronouns_subject_object_a1",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_grammar_pronouns_subject_object_a1",
+        "file": "base/eng_grammar_pronouns_subject_object_a1.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "GRAMMAR",
+        "subcategory": "PRONOUN",
+        "difficulty": "A1"
+      },
+      "content": {
+        "id": "eng_grammar_pronouns_subject_object_a1",
+        "category": "GRAMMAR",
+        "subcategory": "PRONOUN",
+        "difficulty": "A1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "pronouns",
+          "subject pronouns",
+          "object pronouns",
+          "I",
+          "you",
+          "me",
+          "grammar"
+        ],
+        "definition": {
+          "name": "主格与宾格代词（I / you / me）",
+          "description": "主格代词（I, you, he, she…）作主语，宾格代词（me, you, him, her…）作动词或介词的宾语。文中 I know you’ll never forgive me. 中 I 是主语，you 和 me 是宾语。"
+        },
+        "examples": [
+          {
+            "english": "I know you’ll never forgive me.",
+            "translation": "我知道你永远不会原谅我。",
+            "note": "I 作主语；you、me 作宾语。"
+          },
+          {
+            "english": "You know you love me.",
+            "translation": "你知道你爱我。",
+            "note": "第一个 you 作主语，第二个 you 作从句主语，me 作宾语。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_possession_of_s_b1"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_grammar_question_short_answer_do_a1",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_grammar_question_short_answer_do_a1",
+        "file": "base/eng_grammar_question_short_answer_do_a1.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "GRAMMAR",
+        "subcategory": "QUESTION",
+        "difficulty": "A1"
+      },
+      "content": {
+        "id": "eng_grammar_question_short_answer_do_a1",
+        "category": "GRAMMAR",
+        "subcategory": "QUESTION",
+        "difficulty": "A1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "short answer",
+          "do",
+          "yes/no question",
+          "auxiliary",
+          "grammar"
+        ],
+        "definition": {
+          "name": "助动词 do 的简短回答（Yes, I do.）",
+          "description": "对一般疑问句或陈述句进行肯定或否定简短回答时，用助动词 do / don’t 代替整个动词短语。文中 You know you love me. Yes, I do. 用 Yes, I do. 表示肯定。"
+        },
+        "examples": [
+          {
+            "english": "You know you love me. Yes, I do.",
+            "translation": "你知道你爱我。是的，我知道。",
+            "note": "Yes, I do. 用 do 代替 know，避免重复。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_negation_dont_a1"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_pragmatics_speech_act_apology_b1",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_pragmatics_speech_act_apology_b1",
+        "file": "base/eng_pragmatics_speech_act_apology_b1.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "PRAGMATICS",
+        "subcategory": "SPEECH_ACT",
+        "difficulty": "B1"
+      },
+      "content": {
+        "id": "eng_pragmatics_speech_act_apology_b1",
+        "category": "PRAGMATICS",
+        "subcategory": "SPEECH_ACT",
+        "difficulty": "B1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "apology",
+          "speech act",
+          "blame",
+          "forgiveness",
+          "pragmatics"
+        ],
+        "definition": {
+          "name": "道歉与自我归责的语用表达",
+          "description": "在人际语境中，道歉常伴随承认责任、表达后悔或自我归责。文中 I know you’ll never forgive me. And I don’t blame you. I wouldn’t forgive me either. 通过“我知道你不会原谅我”“我不怪你”“我也不会原谅自己”层层表达歉意与自责，是典型的道歉言语行为。"
+        },
+        "examples": [
+          {
+            "english": "I know you’ll never forgive me. And I don’t blame you. I wouldn’t forgive me either.",
+            "translation": "我知道你永远不会原谅我。我也不怪你。换作是我，我也不会原谅自己。",
+            "note": "用 forgive、blame 和假设语气表达道歉与自责。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_modal_would_hypothetical_b1",
+          "eng_vocabulary_word_blame_b1"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_vocabulary_collocation_make_mistakes_a2",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_vocabulary_collocation_make_mistakes_a2",
+        "file": "base/eng_vocabulary_collocation_make_mistakes_a2.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "VOCABULARY",
+        "subcategory": "COLLOCATION",
+        "difficulty": "A2"
+      },
+      "content": {
+        "id": "eng_vocabulary_collocation_make_mistakes_a2",
+        "category": "VOCABULARY",
+        "subcategory": "COLLOCATION",
+        "difficulty": "A2",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "make mistakes",
+          "collocation",
+          "make + noun",
+          "vocabulary"
+        ],
+        "definition": {
+          "name": "搭配 make mistakes（犯错）",
+          "description": "make mistakes 是固定搭配，表示“犯错”，动词用 make 而不是 do。文中 We all make mistakes. 即“我们都会犯错”。"
+        },
+        "examples": [
+          {
+            "english": "We all make mistakes.",
+            "translation": "我们都会犯错。",
+            "note": "make + mistakes 是常见搭配。"
+          }
+        ],
+        "expressions": [
+          {
+            "expression": "make a mistake / make mistakes",
+            "meaning": "犯错误",
+            "register": "neutral",
+            "scenario": "谈论错误或失误时使用"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_article_zero_plural_general_a2"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_vocabulary_phrase_a_little_bit_a2",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_vocabulary_phrase_a_little_bit_a2",
+        "file": "base/eng_vocabulary_phrase_a_little_bit_a2.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "VOCABULARY",
+        "subcategory": "PHRASE",
+        "difficulty": "A2"
+      },
+      "content": {
+        "id": "eng_vocabulary_phrase_a_little_bit_a2",
+        "category": "VOCABULARY",
+        "subcategory": "PHRASE",
+        "difficulty": "A2",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "a little bit",
+          "phrase",
+          "degree",
+          "vocabulary"
+        ],
+        "definition": {
+          "name": "短语 a little bit（有一点）",
+          "description": "a little bit 表示程度“有一点、稍微”，相当于 slightly，常修饰形容词。文中 Life’s a little bit messy. 表示“生活有点乱”。"
+        },
+        "examples": [
+          {
+            "english": "Life’s a little bit messy.",
+            "translation": "生活总有点乱。",
+            "note": "a little bit 修饰形容词 messy，表示程度轻。"
+          }
+        ],
+        "expressions": [
+          {
+            "expression": "a little bit",
+            "meaning": "有一点、稍微",
+            "register": "informal",
+            "scenario": "口语中修饰形容词，表示程度不深"
+          }
+        ],
+        "relatedTopics": [
+          "eng_vocabulary_word_messy_a2"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_vocabulary_word_blame_b1",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_vocabulary_word_blame_b1",
+        "file": "base/eng_vocabulary_word_blame_b1.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "VOCABULARY",
+        "subcategory": "WORD",
+        "difficulty": "B1"
+      },
+      "content": {
+        "id": "eng_vocabulary_word_blame_b1",
+        "category": "VOCABULARY",
+        "subcategory": "WORD",
+        "difficulty": "B1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "blame",
+          "verb",
+          "vocabulary"
+        ],
+        "definition": {
+          "name": "动词 blame（责怪、归咎于）",
+          "description": "blame 作动词表示“责怪、把……归咎于”。常用搭配 blame somebody for something 或 don’t blame somebody。文中 I don’t blame you. 表示“我不怪你”。"
+        },
+        "examples": [
+          {
+            "english": "And I don’t blame you.",
+            "translation": "而且我不怪你。",
+            "note": "blame 后接人作宾语，表示责怪某人。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_negation_dont_a1"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_vocabulary_word_either_negative_b1",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_vocabulary_word_either_negative_b1",
+        "file": "base/eng_vocabulary_word_either_negative_b1.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "VOCABULARY",
+        "subcategory": "WORD",
+        "difficulty": "B1"
+      },
+      "content": {
+        "id": "eng_vocabulary_word_either_negative_b1",
+        "category": "VOCABULARY",
+        "subcategory": "WORD",
+        "difficulty": "B1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "either",
+          "negative",
+          "too",
+          "vocabulary"
+        ],
+        "definition": {
+          "name": "either（否定句中的“也”）",
+          "description": "在否定句中表示“也（不）”，用 either，置于句末；肯定句中则用 too。文中 I wouldn’t forgive me either. 表示“我也不会原谅自己”。"
+        },
+        "examples": [
+          {
+            "english": "I wouldn’t forgive me either.",
+            "translation": "我也不会原谅我自己。",
+            "note": "either 用于否定句句末，表示“也不”。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_modal_would_hypothetical_b1"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_vocabulary_word_messy_a2",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_vocabulary_word_messy_a2",
+        "file": "base/eng_vocabulary_word_messy_a2.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "VOCABULARY",
+        "subcategory": "WORD",
+        "difficulty": "A2"
+      },
+      "content": {
+        "id": "eng_vocabulary_word_messy_a2",
+        "category": "VOCABULARY",
+        "subcategory": "WORD",
+        "difficulty": "A2",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "messy",
+          "adjective",
+          "vocabulary"
+        ],
+        "definition": {
+          "name": "形容词 messy（凌乱的、麻烦的）",
+          "description": "messy 形容事物凌乱、不整洁，也可引申为“麻烦的、棘手的”。文中 Life’s a little bit messy. 表示“生活有点乱、不尽如人意”。"
+        },
+        "examples": [
+          {
+            "english": "Life’s a little bit messy.",
+            "translation": "生活总有点乱。",
+            "note": "Life's 是 Life is 的缩写；messy 描述状态。"
+          }
+        ],
+        "relatedTopics": [
+          "eng_vocabulary_phrase_a_little_bit_a2"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_vocabulary_word_wanna_informal_b1",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_vocabulary_word_wanna_informal_b1",
+        "file": "base/eng_vocabulary_word_wanna_informal_b1.json",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "VOCABULARY",
+        "subcategory": "WORD",
+        "difficulty": "B1"
+      },
+      "content": {
+        "id": "eng_vocabulary_word_wanna_informal_b1",
+        "category": "VOCABULARY",
+        "subcategory": "WORD",
+        "difficulty": "B1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "wanna",
+          "want to",
+          "informal",
+          "spoken",
+          "vocabulary"
+        ],
+        "definition": {
+          "name": "口语缩略 wanna（= want to）",
+          "description": "wanna 是 want to 在口语或非正式语体中的缩略形式，常见于歌词、台词与日常对话，书面语中应写 want to。文中 I wanna try… 即 I want to try…。"
+        },
+        "examples": [
+          {
+            "english": "I wanna try even though I could fail.",
+            "translation": "我想试一试，即使我可能会失败。",
+            "note": "wanna = want to，属非正式口语表达。"
+          }
+        ],
+        "expressions": [
+          {
+            "expression": "wanna (do something)",
+            "meaning": "想要（做某事）",
+            "register": "informal",
+            "scenario": "口语、歌词、影视台词中表达意愿"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_conjunction_even_though_b1"
+        ],
+        "source": "Zootopia.txt",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_vocabulary_word_formation_tion_b1",
+      "log": {
+        "ts": "2026-08-14T17:49:46+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_vocabulary_word_formation_tion_b1",
+        "file": "base/eng_vocabulary_word_formation_tion_b1.json",
+        "request": "Create a B1 knowledge point for nouns ending in -tion",
+        "validation": "PASS",
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "category": "VOCABULARY",
+        "subcategory": "WORD_FORMATION",
+        "difficulty": "B1"
+      },
+      "content": {
+        "id": "eng_vocabulary_word_formation_tion_b1",
+        "category": "VOCABULARY",
+        "subcategory": "WORD_FORMATION",
+        "difficulty": "B1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "-tion",
+          "suffix",
+          "noun",
+          "word formation",
+          "verb to noun",
+          "vocabulary"
+        ],
+        "definition": {
+          "name": "名词后缀 -tion（动词变名词）",
+          "description": "-tion 是最常见的名词后缀之一，常加在动词后构成名词，表示动作、过程、状态或结果。例如 inform（通知）→ information（信息），invent（发明）→ invention（发明）。常见拼写规律：以 -ate 结尾的动词去掉 e 加 -tion（celebrate → celebration）；以 -ize 结尾的动词去掉 e 加 -tion（organize → organization）；以 -ify 结尾的动词变为 -ification（simplify → simplification）。-tion 一般读作 /ʃən/，如 information。少数单词拼写有特殊变化，如 decide → decision、produce → production。"
+        },
+        "examples": [
+          {
+            "english": "Please give me some information about the tour.",
+            "translation": "请给我一些关于这次旅行（行程）的信息。",
+            "note": "inform（通知、告知）→ information（信息），表示动作产生的内容。"
+          },
+          {
+            "english": "Education is important for every child.",
+            "translation": "教育对每个孩子都很重要。",
+            "note": "educate（教育）→ education（教育），以 -ate 结尾的动词去掉 e 再加 -tion。"
+          },
+          {
+            "english": "The invention of the smartphone changed our lives.",
+            "translation": "智能手机的发明改变了我们的生活。",
+            "note": "invent（发明）→ invention（发明），表示动作本身及其结果。"
+          },
+          {
+            "english": "The celebration lasted all night.",
+            "translation": "庆祝活动持续了一整夜。",
+            "note": "celebrate（庆祝）→ celebration（庆祝活动、庆典）。"
+          },
+          {
+            "english": "Good communication helps people work together.",
+            "translation": "良好的沟通能帮助人们一起合作。",
+            "note": "communicate（交流、沟通）→ communication（沟通、交流）。"
+          },
+          {
+            "english": "The organization of the event took two weeks.",
+            "translation": "组织这次活动花了两周时间。",
+            "note": "organize（组织）→ organization（组织、筹备）。"
+          }
+        ],
+        "expressions": [
+          {
+            "expression": "verb + -tion → noun",
+            "meaning": "在动词后加 -tion 构成名词，表示动作、过程或结果",
+            "register": "neutral",
+            "scenario": "把动词变成名词，用于书面和口语中谈论抽象概念"
+          },
+          {
+            "expression": "communicate → communication, celebrate → celebration",
+            "meaning": "以 -ate 结尾的动词去掉 e 加 -tion",
+            "register": "neutral",
+            "scenario": "记忆以 -ate 结尾动词的名词形式"
+          },
+          {
+            "expression": "organize → organization, realize → realization",
+            "meaning": "以 -ize 结尾的动词去掉 e 加 -tion（-ization）",
+            "register": "neutral",
+            "scenario": "记忆以 -ize 结尾动词的名词形式"
+          },
+          {
+            "expression": "simplify → simplification, identify → identification",
+            "meaning": "以 -ify 结尾的动词，词尾变为 -ification",
+            "register": "neutral",
+            "scenario": "记忆以 -ify 结尾动词的名词形式"
+          }
+        ],
+        "relatedTopics": [],
+        "source": null,
+        "createdAt": "2026-08-14T09:00:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 0,
+      "assetStrategies": []
+    },
+    {
+      "id": "eng_grammar_possession_of_s_b1",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_grammar_possession_of_s_b1",
+        "file": "base/eng_grammar_possession_of_s_b1.json",
+        "createdAt": "2026-08-12T14:30:00+09:00",
+        "category": "GRAMMAR",
+        "subcategory": "POSSESSION",
+        "difficulty": "B1"
+      },
+      "content": {
+        "id": "eng_grammar_possession_of_s_b1",
+        "category": "GRAMMAR",
+        "subcategory": "POSSESSION",
+        "difficulty": "B1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "possession",
+          "possessive",
+          "of",
+          "'s",
+          "s apostrophe",
+          "possessive adjectives",
+          "possessive pronouns",
+          "noun phrases",
+          "middle school"
+        ],
+        "definition": {
+          "name": "Expressing possession with 's, s', of, and possessive forms",
+          "description": "English shows possession or belonging in several ways. Use 's or s' mainly with people, animals, groups, and time expressions. Use of mainly with things, parts, abstract ideas, and longer noun phrases. Use possessive adjectives such as my, your, his, her, its, our, and their before nouns, and possessive pronouns such as mine, yours, his, hers, ours, and theirs without a following noun."
+        },
+        "examples": [
+          {
+            "english": "This is Anna's notebook.",
+            "translation": "This is Anna's notebook.",
+            "note": "Use 's after a singular person's name."
+          },
+          {
+            "english": "The students' projects are on the wall.",
+            "translation": "The students' projects are on the wall.",
+            "note": "Use s' after a regular plural noun ending in -s."
+          },
+          {
+            "english": "The children's bags are in the classroom.",
+            "translation": "The children's bags are in the classroom.",
+            "note": "Use 's after an irregular plural noun that does not end in -s."
+          },
+          {
+            "english": "The color of the door is dark green.",
+            "translation": "The color of the door is dark green.",
+            "note": "Use of for a part, feature, or quality of a thing."
+          },
+          {
+            "english": "The end of the story surprised me.",
+            "translation": "The end of the story surprised me.",
+            "note": "Use of for abstract relationships such as the end of a story."
+          },
+          {
+            "english": "My phone is new, but yours is newer.",
+            "translation": "My phone is new, but yours is newer.",
+            "note": "My comes before a noun; yours replaces your phone."
+          },
+          {
+            "english": "A friend of my brother's is visiting us.",
+            "translation": "A friend of my brother's is visiting us.",
+            "note": "A friend of my brother's means one of my brother's friends."
+          },
+          {
+            "english": "Yesterday's meeting was short.",
+            "translation": "Yesterday's meeting was short.",
+            "note": "Use 's with some time expressions."
+          }
+        ],
+        "expressions": [
+          {
+            "expression": "Anna's notebook / my teacher's car / Tom's sister",
+            "meaning": "belonging to one person or closely connected with one person",
+            "register": "neutral",
+            "scenario": "talking about people and their things or relationships"
+          },
+          {
+            "expression": "the students' projects / my parents' house",
+            "meaning": "belonging to more than one person when the plural noun ends in -s",
+            "register": "neutral",
+            "scenario": "talking about groups and families"
+          },
+          {
+            "expression": "the children's toys / men's shoes / women's clothes",
+            "meaning": "belonging to an irregular plural noun",
+            "register": "neutral",
+            "scenario": "talking about plural groups whose noun form does not end in -s"
+          },
+          {
+            "expression": "the roof of the house / the title of the book / the result of the test",
+            "meaning": "a part, feature, name, or result connected with a thing or idea",
+            "register": "neutral",
+            "scenario": "describing objects, texts, events, and abstract ideas"
+          },
+          {
+            "expression": "my bag / your idea / his bike / her room / its tail / our class / their team",
+            "meaning": "possessive adjectives used before nouns",
+            "register": "neutral",
+            "scenario": "saying who something belongs to"
+          },
+          {
+            "expression": "mine / yours / his / hers / ours / theirs",
+            "meaning": "possessive pronouns used without a following noun",
+            "register": "neutral",
+            "scenario": "avoiding repeated nouns"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_pronouns_subject_object_a1",
+          "eng_grammar_nouns_singular_plural_a1",
+          "eng_grammar_articles_common_nouns_a2",
+          "eng_grammar_noun_phrases_b1"
+        ],
+        "source": null,
+        "createdAt": "2026-08-12T14:30:00+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 19,
+      "assetStrategies": [
+        "CLASSIFICATION",
+        "EXPLANATION",
+        "COMPARISON",
+        "ASSOCIATION",
+        "EXAMPLE",
+        "COUNTER_EXAMPLE",
+        "CONFUSION",
+        "SCENARIO",
+        "DIALOGUE",
+        "MNEMONIC",
+        "PRODUCTION",
+        "EXTENSION"
+      ]
+    },
+    {
+      "id": "eng_grammar_prepositions_at_on_in_b1",
+      "log": {
+        "ts": "2026-08-14T16:47:40+09:00",
+        "action": "CREATED",
+        "artifactType": "KNOWLEDGE_POINT",
+        "id": "eng_grammar_prepositions_at_on_in_b1",
+        "file": "base/eng_grammar_prepositions_at_on_in_b1.json",
+        "createdAt": "2026-08-12T11:26:44.7052105+09:00",
+        "category": "GRAMMAR",
+        "subcategory": "PREPOSITION",
+        "difficulty": "B1"
+      },
+      "content": {
+        "id": "eng_grammar_prepositions_at_on_in_b1",
+        "category": "GRAMMAR",
+        "subcategory": "PREPOSITION",
+        "difficulty": "B1",
+        "targetAgeMin": 12,
+        "targetAgeMax": 18,
+        "targetAgeGroup": "teen",
+        "tags": [
+          "prepositions",
+          "at",
+          "on",
+          "in",
+          "time",
+          "place",
+          "confusing grammar",
+          "middle school"
+        ],
+        "definition": {
+          "name": "at / on / in 的时间和地点用法",
+          "description": "at、on、in 都可以表示时间或地点，但它们看的范围不同：at 通常指一个具体点，on 通常指一个表面、日期或某一天，in 通常指一个较大的空间、时间段或范围。B1 学习者需要能根据语境判断说话人是在强调点、面，还是范围。"
+        },
+        "examples": [
+          {
+            "english": "We meet at 7:30 every morning.",
+            "translation": "我们每天早上七点半见面。",
+            "note": "at 用于具体时刻。"
+          },
+          {
+            "english": "The English test is on Friday.",
+            "translation": "英语考试在星期五。",
+            "note": "on 用于星期几。"
+          },
+          {
+            "english": "My birthday is on May 5.",
+            "translation": "我的生日是五月五日。",
+            "note": "on 用于具体日期。"
+          },
+          {
+            "english": "I usually do my homework in the evening.",
+            "translation": "我通常在晚上做作业。",
+            "note": "in 用于 morning、afternoon、evening 这类一天中的时间段。"
+          },
+          {
+            "english": "She was born in 2011.",
+            "translation": "她出生于 2011 年。",
+            "note": "in 用于年份、月份、季节等较长时间。"
+          },
+          {
+            "english": "He is waiting at the bus stop.",
+            "translation": "他正在公交站等。",
+            "note": "at 用于把地点看成一个具体位置点。"
+          },
+          {
+            "english": "There is a picture on the wall.",
+            "translation": "墙上有一幅画。",
+            "note": "on 表示在表面上。"
+          },
+          {
+            "english": "The keys are in my schoolbag.",
+            "translation": "钥匙在我的书包里。",
+            "note": "in 表示在某个空间或容器内部。"
+          },
+          {
+            "english": "We study at school, but we play basketball in the gym.",
+            "translation": "我们在学校学习，但在体育馆里打篮球。",
+            "note": "at school 强调学校这个活动地点；in the gym 强调在体育馆这个空间内部。"
+          },
+          {
+            "english": "The students are on the bus, and their bags are in the bus too.",
+            "translation": "学生们在公交车上，他们的书包也在公交车里。",
+            "note": "on the bus 是固定习惯说法，表示乘坐大型交通工具；in the bus 只强调物体在车内空间。"
+          }
+        ],
+        "expressions": [
+          {
+            "expression": "at 7 o'clock / at noon / at night / at the weekend",
+            "meaning": "用于具体时刻、特殊时间点或固定时间表达",
+            "register": "neutral",
+            "scenario": "谈论日程安排"
+          },
+          {
+            "expression": "on Monday / on May 5 / on a school day",
+            "meaning": "用于星期、具体日期或某一天",
+            "register": "neutral",
+            "scenario": "说明事情发生在哪一天"
+          },
+          {
+            "expression": "in May / in summer / in 2026 / in the morning",
+            "meaning": "用于月份、季节、年份和较长时间段",
+            "register": "neutral",
+            "scenario": "描述较宽的时间范围"
+          },
+          {
+            "expression": "at home / at school / at the station / at the door",
+            "meaning": "把地点看作一个具体位置或活动地点",
+            "register": "neutral",
+            "scenario": "说明人在什么地点"
+          },
+          {
+            "expression": "on the desk / on the wall / on the floor / on the page",
+            "meaning": "表示在某个表面上",
+            "register": "neutral",
+            "scenario": "描述物品位置"
+          },
+          {
+            "expression": "in the room / in the box / in my bag / in China",
+            "meaning": "表示在空间、容器、区域或国家内部",
+            "register": "neutral",
+            "scenario": "描述范围内部的位置"
+          }
+        ],
+        "relatedTopics": [
+          "eng_grammar_prepositions_place_a2",
+          "eng_grammar_prepositions_time_a2",
+          "eng_grammar_articles_common_nouns_a2",
+          "eng_vocabulary_daily_routines_a2"
+        ],
+        "source": null,
+        "createdAt": "2026-08-12T11:26:44.7052105+09:00",
+        "updatedAt": null
+      },
+      "hasContent": true,
+      "learningAssetCount": 16,
+      "assetStrategies": [
+        "CLASSIFICATION",
+        "EXPLANATION",
+        "COMPARISON",
+        "ASSOCIATION",
+        "EXAMPLE",
+        "COUNTER_EXAMPLE",
+        "CONFUSION",
+        "SCENARIO",
+        "DIALOGUE",
+        "MNEMONIC",
+        "PRODUCTION",
+        "EXTENSION"
+      ]
+    }
+  ]
+}

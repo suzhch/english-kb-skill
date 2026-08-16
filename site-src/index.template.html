@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>英语知识库 · 知识一览</title>
+  <meta name="description" content="从文章生成的结构化英语知识库：语法、词汇、表达、语用。" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div>
+        <h1>英语知识库</h1>
+        <p class="subtitle">从文章生成的结构化英语知识点一览</p>
+      </div>
+      <p class="build-info" id="build-info"></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="stats" aria-label="知识库统计">
+      <div class="stat-total">
+        <strong id="stat-total">0</strong>
+        <span>知识点</span>
+      </div>
+      <div class="stat-groups">
+        <div class="chips" id="chips-category" aria-label="按类别筛选"></div>
+        <div class="chips" id="chips-difficulty" aria-label="按难度筛选"></div>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="搜索与筛选">
+      <input type="search" id="search" placeholder="搜索名称、释义、例句、标签…" autocomplete="off" />
+      <select id="filter-subcategory" title="子类别">
+        <option value="ALL">全部子类别</option>
+      </select>
+      <select id="filter-source" title="来源文章">
+        <option value="ALL">全部来源</option>
+      </select>
+      <select id="sort" title="排序方式">
+        <option value="newest">最新创建</option>
+        <option value="oldest">最早创建</option>
+        <option value="difficulty-asc">难度从低到高</option>
+        <option value="difficulty-desc">难度从高到低</option>
+        <option value="name">按名称</option>
+      </select>
+      <button type="button" id="reset" class="btn-ghost">重置</button>
+      <span class="result-count" id="result-count"></span>
+    </section>
+
+    <section class="cards" id="cards" aria-live="polite"></section>
+    <p class="empty" id="empty" hidden>没有匹配的知识点，试试调整筛选条件。</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      由 <code>scripts/build-site.mjs</code> 构建 · 数据源：
+      <code>logs/generation.log.jsonl</code> + <code>base/</code>
+    </div>
+  </footer>
+
+  <script>
+    window.KB_DATA = __DATA__;
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>

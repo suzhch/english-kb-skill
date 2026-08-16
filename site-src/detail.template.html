@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>知识点详情 · 英语知识库</title>
+  <link rel="stylesheet" href="../../style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div>
+        <a class="back-link" href="../../">← 返回知识一览</a>
+        <h1 id="page-title">知识点详情</h1>
+        <p class="subtitle" id="page-subtitle"></p>
+      </div>
+      <p class="build-info" id="build-info"></p>
+    </div>
+  </header>
+
+  <main class="wrap detail-wrap">
+    <div id="detail"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      由 <code>scripts/build-site.mjs</code> 构建 · 数据源：
+      <code>logs/generation.log.jsonl</code> + <code>base/</code>
+    </div>
+  </footer>
+
+  <script>
+    window.KB_DETAIL = __DATA__;
+  </script>
+  <script src="../../detail.js"></script>
+</body>
+</html>

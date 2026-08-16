@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:site": "node scripts/build-site.mjs",
+    "serve:site": "node scripts/build-site.mjs --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
